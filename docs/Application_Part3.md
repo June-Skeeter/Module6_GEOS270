@@ -45,6 +45,14 @@ These data layers have three variables: Population (total residents), Housing (m
 
 <img src="content/images/Statistics.png" alt="hi" class="inline"/>
 
+### Table 1
+Coeficinet of Detrmination values and the strength of the relationships they represent.
+|R<sup>2</sup>| Relationship|
+|-------------|-------------|
+|<0.3         | Very Weak   |
+|0.3 - 0.5    | Weak        |
+|0.5 - 0.7    | Moderate    |
+|0.7          | Strong      |
 
 ## Comparing CTs to DAs
 **3**{: .label .label-red } Follow the same steps as above to symbolize population and plot Income vs. Housing for the VanCMA_CT_2016 layer.  
@@ -86,7 +94,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/Histogram.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/Histogram.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -96,7 +104,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/Histogram.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/Histogram.mp4" target="_blank">View Image in New Tab</a>
 
 
 ## Classify the NDVI Image
@@ -110,7 +118,7 @@ Looking at the NDVI Layer, the satellite imagery basemap, and the histogram, we 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/Classify.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/Classify.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -120,28 +128,7 @@ Looking at the NDVI Layer, the satellite imagery basemap, and the histogram, we 
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/Classify.mp4" target="_blank">View Image in New Tab</a>
-
-<!-- 
-### Licensing
-
-Part of how ESRI makes their money is by having different "tiers" of access to their software.  They charge more for the most functional packages.  These require extra licenses.  You have access to these licenses through UBC, but they may not be configured on the instalation of Arc you are working with.  To fix a licensing issue, start by going to the Project tab, then follow the video below.
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="content/Videos/Licensing.mp4" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="content/Videos/Licensing.mp4" target="_blank">View Image in New Tab</a> -->
-
+<a href="content/videos/Classify.mp4" target="_blank">View Image in New Tab</a>
 
 ### **Q4**
 Which value denotes the lower bound of the "Green Vegetation Class?"

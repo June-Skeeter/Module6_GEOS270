@@ -60,7 +60,7 @@ Is the DA with the highest mean NDVI value the same as the DA with the greatest 
 
 
 [**QA8**](Application_Part4.md#qa8)
-Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
+Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis and Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
 
 <!-- 0.11 --> 
 
@@ -79,6 +79,16 @@ Are either of these variables strongly linked to income? Why?
 
 <!-- NO, r2 0=no relationship, 1 = perfect relationship.  These values are low -->
 
+
+[**QA12**](Application_Part5.md#qa12)
+Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis  Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
+
+<!-- NO, r2 0=no relationship, 1 = perfect relationship.  These values are low -->
+
+[**QA13**](Application_Part5.md#qa13)
+Are either of these variables strongly linked to income? Why?
+
+<!-- NO, r2 0=no relationship, 1 = perfect relationship.  These values are low -->
 
 
 ---

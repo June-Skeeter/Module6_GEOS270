@@ -36,7 +36,7 @@ We are going to overlay the vector data on the raster data to measure the mean N
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/ZonalStats.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/ZonalStats.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -46,7 +46,7 @@ We are going to overlay the vector data on the raster data to measure the mean N
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/ZonalStats.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/ZonalStats.mp4" target="_blank">View Image in New Tab</a>
 
 ### QA5
 What is the DAUID of the DA with the highest Mean NDVI value?  *Hint* Double clicking on Green Veg Area in the attribute table allows you to sort in ascending/descending order.
@@ -67,7 +67,7 @@ We are going to convert the Classification raster layer to a vector data and sel
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/RasterToPoly.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/RasterToPoly.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -77,7 +77,7 @@ We are going to convert the Classification raster layer to a vector data and sel
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/RasterToPoly.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/RasterToPoly.mp4" target="_blank">View Image in New Tab</a>
 
 ## Intersect
 The [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/intersect.htm) is one of the most useful vector - vector overlay operations.  It will combine the feature classes where they overlap and exclude all other areas 
@@ -89,7 +89,7 @@ The [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/ana
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/Intersect.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/Intersect.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -99,7 +99,7 @@ The [Intersect tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/ana
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/Intersect.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/Intersect.mp4" target="_blank">View Image in New Tab</a>
 
 ## Add & Calculate Field
 
@@ -137,7 +137,7 @@ Adding new fields to our attribute table allows us to perform calculations or co
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/AddField.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/AddField.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -147,7 +147,7 @@ Adding new fields to our attribute table allows us to perform calculations or co
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/AddField.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/AddField.mp4" target="_blank">View Image in New Tab</a>
 
 
 ## Summary Table
@@ -163,7 +163,7 @@ Summarizing by a field (eg. DAUID - the Dissemination Unit ID) allows us to get 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/Videos/SummaryTable.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/SummaryTable.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -173,7 +173,7 @@ Summarizing by a field (eg. DAUID - the Dissemination Unit ID) allows us to get 
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Videos/SummaryTable.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/SummaryTable.mp4" target="_blank">View Image in New Tab</a>
 
 
 ## Join Summary Table
@@ -186,7 +186,7 @@ What is the DAUID of the DA with the highest Green Veg Area?
 Is the DA with the highest mean NDVI value the same as the DA with the greatest area of green vegetation? Y/N
 
 ### QA8
-Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
+Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green and Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
 
 ### QA9
 The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak] predictor of Green Veg Area.
