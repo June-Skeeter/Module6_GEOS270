@@ -189,7 +189,7 @@ Is the DA with the highest mean NDVI value the same as the DA with the greatest 
 Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis Green and Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
 
 ### QA9
-The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak] predictor of Green Veg Area.
+The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak/Very Weak] predictor of Green Veg Area.
 
 ### QA10
 Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?

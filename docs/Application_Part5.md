@@ -41,7 +41,7 @@ Now we can Normalize the total area of green vegetation by DA size.  Normalizing
 Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis and Green Vegetation Fraction (Normalized Output from Method 2) on the Y-axis.  What is the R2 value? 
 
 ### QA13
-The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak] predictor of Green Vegetation Fraction.
+The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak/Very Weak] predictor of Green Veg Area.
 
 ### WA3
 What does data normalization do? How does normalizing effect the relationship with income? Create a new chart with Green Vegetation Fraction on the X-axis and Income on the Y-axis to find out.  How does this compare to when we were looking at the relationship between Total Green Vegetation Area and income?
