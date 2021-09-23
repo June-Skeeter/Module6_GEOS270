@@ -2,7 +2,7 @@
 layout: default
 title: Application
 has_children: True
-nav_order: 2
+nav_order: 3
 ---
 
 # Scenario
@@ -39,12 +39,12 @@ There are a wide variety of data sources out there.  We'll cover some options in
 
 ## Getting Started
 
-Create a new project in ArcPro called Lab2_Project.
+Create a new project in ArcPro called Van_NDVI.
 
 
 ## Download the Census Data
 
-Now download [the census data](https://github.com/June-Skeeter/Module3_GEOS270/blob/main/Van_Census.zip) and extract the Van_Census.zip file to your newly created Lab2_Project folder.
+Now download [the census data](https://github.com/June-Skeeter/Module3_GEOS270/blob/main/data/Van_Census.zip) and extract the Van_Census.zip file to your newly created Van_NDVI folder.
 
 
 ### Acknowledgments

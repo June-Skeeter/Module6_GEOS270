@@ -6,9 +6,7 @@ title: Module 3
 nav_order: 1
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VIlmyuO1zEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# Module 2
+# Module 3
 {: .no_toc }
 
 <details open markdown="block">

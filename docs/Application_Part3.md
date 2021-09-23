@@ -10,12 +10,12 @@ nav_order: 3
 ## Symbolize Census Data & Plot Relationships
 These data layers have three variables: Population (total residents), Housing (monthly rent), and Income (annual total).  The Canadian Census collects many different variables.  We'll discuss the census more in depth during lecture.
 
-**1)**{: .label .label-red } Symbolize your census data by population.
+**1**{: .label .label-red } Symbolize your census data by population.
 * Change the symbology for Van_DA_2016 to Graduated Colors.
 * Set the Field to Population.
-* Leave everything else as is for now.  We'll discuss data classification methods in more detail in next weeks lab.
+* Leave everything else as is for now.  We'll discuss data classification methods in more detail later in term.
 
-**2)**{: .label .label-red } Create a chart income vs. housing.
+**2**{: .label .label-red } Create a chart income vs. housing.
 * Right click Van_DA_2016 and click Create Chart > Scatter Plot.
 * In the chart properties tab that opens, set Income as the X-axis and Housing as the Y-axis.
 * Checking "Show linear trend" will display a regression line on your chart.
@@ -74,7 +74,7 @@ C) About the same
 ## Check the NDVI Histogram
 To get a feel for the distribution of NDVI values in the dataset, we're going to plot them in a histogram to aid our visual inspection of the NDVI data.
 
-**3)**{: .label .label-red } Create a chart showing the count of cells by NDVI values.
+**3**{: .label .label-red } Create a chart showing the count of cells by NDVI values.
 * Right click the projected NDIV layer and click Create Chart > Histogram.
   * My projected NDVI layer is titled "Van_Greenest_ProjectRaster" but yours may be labeled differently if you .
 * Under Variable, set Band_1 as Number.  Note what shows up on the chart.
@@ -84,7 +84,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 <img src="Bins.png" alt="hi" class="inline"/>
 
 
-**4)**{: .label .label-red } Change the base map to help inspect the NDVI data.
+**4**{: .label .label-red } Change the base map to help inspect the NDVI data.
 * On the Map tab click Basemap and choose Imagery
 * Toggle the NDVI Layer on and off to see how the NDVI values correspond to green vegetation on the visible imagery base map layer.
 * Look at the histogram and compare the NDVI layer with the satellite image base map.
@@ -109,7 +109,7 @@ To get a feel for the distribution of NDVI values in the dataset, we're going to
 ## Classify the NDVI Image
 Looking at the NDVI Layer, the satellite imagery basemap, and the histogram, we can make some inferences about the data.  The NDVI values have a bimodal distribution (two peaks) according to the histogram.  The peaks correspond to large swaths of land dominated by water and dense urban areas (low values) and dense green vegetation (high values).  Values in-between the peaks represent less dense urban areas, with increasing greenery.  We can classify (group) the NDVI into three classes (Green Vegetation, Medium Density Residential, Water/Urban).  
 
-**5)**{: .label .label-red } Use the natural breaks to estimate the class boundaries.
+**5**{: .label .label-red } Use the natural breaks to estimate the class boundaries.
 * Search for the Reclassify tool in the geoprocessing pane.
 * Use the projected NDVI layer as the input
 * Click classify to set the classification scheme.  Set the method to Natural Breaks, and the number of classes to three.
