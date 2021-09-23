@@ -14,7 +14,7 @@ Add a Field called Green_Vegetation_Fraction.
 * Make sure its type is: double.
 
 ## Normalizing
-Now we can Normalize the total area of green vegetation by DA size.  Normalizing, also know as standardizing, is the process of dividing one variable by another correlated variable to account for their relationship.  It can help us identify patterns that might be masked by a confounding variable.
+Now we can Normalize the total area of green vegetation by DA size.  Normalizing, also know as standardizing, is the process of dividing one variable by another correlated variable to account for their relationship.  It can help us identify patterns that might be masked by a confounding variable.  We'll discuss normalization in more depth in leccture later on in term.
 
 **1)**{: .label .label-red } Calculate the Green Vegetation Fraction field.
 * The Field Calculator allows you to do more than just set values like we did in the last step.  We can also create multivariate expressions.
@@ -24,7 +24,7 @@ Now we can Normalize the total area of green vegetation by DA size.  Normalizing
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="Norm.mp4" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="content/videos/Norm.mp4" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -34,9 +34,7 @@ Now we can Normalize the total area of green vegetation by DA size.  Normalizing
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="Norm.mp4" target="_blank">View Image in New Tab</a>
+<a href="content/videos/Norm.mp4" target="_blank">View Image in New Tab</a>
 
-## Question 13)
+### WA3
 What does data normalization do? How does normalizing effect the relationship with income? Create a new chart with Green Vegetation Fraction on the X-axis and Income on the Y-axis to find out.  How does this compare to when we were looking at the relationship between Total Green Vegetation Area and income?
-
-<!-- Normalizing accounts for a confounding/secondary/other variable by dividing the variable of interest by the confounder.  This helps control for correlation between the two variables. The R2 score goes up to 0.073, Accounting for the different sizes of the DA "improves" the relationship. But not by much -->
