@@ -7,7 +7,7 @@ nav_order: 4
 # Assessment
 {: .no_toc }
 
-You can use the course Canvas page to complete the quiz, written submission, and files uploads.  I suggest you download the [assessment document](https://github.com/June-Skeeter/Module2_GEOS270/blob/main/docs/Assessment.md), write down your answers there as you progress through the Content and Application sections.  Then upload your answers to canvas once you have finished the module.
+You can use the course Canvas page to complete the quiz, written submission, and files uploads.  I suggest you download write down your answers as you progress through the Content and Application sections then upload your answers to canvas once you have finished the module.
 
 1. TOC
 {:toc}
@@ -23,12 +23,8 @@ All quiz answers are multiple choice, numeric input, fill in the blank, etc. typ
 [**QA1**](Application_Part3.md#qa1)
 For every $100 increase in income at the CT level, how much does rental price increase?
 
-<!-- $2.66 -->
-
 [**QA2**](Application_Part3.md#qa2)
 What is the r2 score for this model?
-
-<!-- r2 = 0.38 -->
 
 [**QA3**](Application_Part3.md#qa3)
 Which Census Unit displays a more direct relationship between income and housing?
@@ -36,59 +32,35 @@ Which Census Unit displays a more direct relationship between income and housing
 - CT
 - About the same
 
-<!-- CT -->
-
 [**Q4**](Application_Part3.md#qa3)
 Which value denotes the lower bound of the "Green Vegetation Class?"
-
-<!-- 0.606867 -->
 
 [**Q5**](Application_Part4.md#qa5)
 What is the DAUID of the DA with the highest Mean NDVI value?  *Hint* Double clicking on Green Veg Area in the attribute table allows you to sort in ascending/descending order.
 
-<!-- 59151219 -->
-
 [**Q6**](Application_Part4.md#qa6)
 What is the DAUID of the DA with the highest Green Veg Area?
-
-<!-- 59153586 -->
 
 [**QA7**](Application_Part4.md#qa7)
 Is the DA with the highest mean NDVI value the same as the DA with the greatest area of green vegetation? Y/N
 
-<!-- N -->
-
-
 [**QA8**](Application_Part4.md#qa8)
 Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis and Green Veg Area Sum (Output from Method 2) on the Y-axis.  What is the R2 value? 
-
-<!-- 0.11 --> 
 
 [**QA9**](Application_Part4.md#qa9)
 The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak/Very Weak] predictor of Green Veg Area.
 
-<!-- Very Weak -->
-
 [**QA10**](Application_Part4.md#qa10)
-Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?
-
-<!-- Green area & income (r2=0.014) Mean NDIV (r2=0.058). Mean NDVI has "stronger relationship" -->
+Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income? [Green Veg Area/Mean NDVI]
 
 [**QA11**](Application_Part4.md#qa11)
-Are either of these variables strongly linked to income? Why?
-
-<!-- NO, r2 0=no relationship, 1 = perfect relationship.  These values are low -->
-
+Are either of these variables strongly linked to income? [Yes/No/Just Mean NDIV/Just Green Veg Area]
 
 [**QA12**](Application_Part5.md#qa12)
 Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-axis and Green Vegetation Fraction (Normalized Output from Method 2) on the Y-axis.  What is the R2 value? 
 
-<!-- 0.64 -->
-
 [**QA13**](Application_Part5.md#qa13)
 The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak/Very Weak] predictor of Green Veg Area.
-
-<!-- Moderate -->
 
 
 ---

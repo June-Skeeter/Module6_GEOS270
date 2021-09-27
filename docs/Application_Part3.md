@@ -47,6 +47,7 @@ These data layers have three variables: Population (total residents), Housing (m
 
 ### Table 1
 Coeficinet of Detrmination values and the strength of the relationships they represent.
+
 |R<sup>2</sup>| Relationship|
 |-------------|-------------|
 |<0.3         | Very Weak   |

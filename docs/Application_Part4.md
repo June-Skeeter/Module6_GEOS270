@@ -192,12 +192,10 @@ Create a scatter plot, with the Mean NDVI value (Output from Method 1) on the X-
 The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak/Very Weak] predictor of Green Veg Area.
 
 ### QA10
-Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income?
+Change the Y-axis to Income and leave the X-axis as Mean NDVI, note the R2 score.  Now change the X-axis to the Green Veg Area Sum and note the R2 score.  Which variable has a "stronger" relationship with income? [Green Veg Area/Mean NDVI]
 
 ### QA11
-Are either of these variables strongly linked to income? Why?
-
-<!-- NO, r2 0=no relationship, 1 = perfect relationship.  These values are low -->
+Are either of these variables strongly linked to income? [Yes/No/Just Mean NDIV/Just Green Veg Area]
 
 
 

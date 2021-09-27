@@ -3,7 +3,7 @@ layout: default
 title: Spatial Data Models
 parent: Content
 has_children: True
-nav_order: 1
+nav_order: 2
 ---
 
 Spatial Data Models
