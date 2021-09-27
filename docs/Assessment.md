@@ -67,7 +67,11 @@ The r2 score indicates Mean NDVI value is [Strong/Moderate/Weak/Very Weak] predi
 
 ## Content Questions
 
+[**QC1**](Content_Part1.md#qc1)
+The ______ data model represents space as a continuous grid of ______ which each contain a single ______.
 
+[**QC2**](Content_Part1.md#qc2)
+The ______ data model represents features in space as discrete two-dimensional ______ , one-dimensional ______ , and/or "zero-dimensional"  points.  Attribute information is stored separately in a ______.
 
 ---
 

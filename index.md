@@ -1,26 +1,21 @@
 ---
 layout: default
 title: Module 3
-# parent: Modules
-# has_children: True
 nav_order: 1
----
-
-# Module 3
-{: .no_toc }
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 ---
 
 # Spatial Data Models
 
+We use data models represent phenomena in a GIS.  A data model is just a simplified abstractions of reality.
+
+## Learning Outcomes
+
+- Overview of different types of data
+- Overview of different types of Phenomena
+- Differentiate between raster and vector data models.
+- Learn how each model represents space and stores attributes.
+- Learn which types of models are best suited for different applications.
+- Overview of data resolution and how it relates to scale.
 
 # Deliverables
 
