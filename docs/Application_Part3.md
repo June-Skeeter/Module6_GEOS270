@@ -46,14 +46,14 @@ These data layers have three variables: Population (total residents), Housing (m
 <img src="content/images/Statistics.png" alt="hi" class="inline"/>
 
 ### Table 1
-Coeficinet of Detrmination values and the strength of the relationships they represent.
+Coefficient of Determination values and the strength of the relationships they represent.
 
 |R<sup>2</sup>| Relationship|
 |-------------|-------------|
 |<0.3         | Very Weak   |
 |0.3 - 0.5    | Weak        |
 |0.5 - 0.7    | Moderate    |
-|0.7          | Strong      |
+|>0.7          | Strong      |
 
 ## Comparing CTs to DAs
 **3**{: .label .label-red } Follow the same steps as above to symbolize population and plot Income vs. Housing for the VanCMA_CT_2016 layer.  
