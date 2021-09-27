@@ -53,7 +53,7 @@ Coeficinet of Detrmination values and the strength of the relationships they rep
 |<0.3         | Very Weak   |
 |0.3 - 0.5    | Weak        |
 |0.5 - 0.7    | Moderate    |
-|0.7          | Strong      |
+|>0.7          | Strong      |
 
 ## Comparing CTs to DAs
 **3**{: .label .label-red } Follow the same steps as above to symbolize population and plot Income vs. Housing for the VanCMA_CT_2016 layer.  
