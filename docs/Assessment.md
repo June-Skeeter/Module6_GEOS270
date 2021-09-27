@@ -18,7 +18,7 @@ You can use the course Canvas page to complete the quiz, written submission, and
 
 All quiz answers are multiple choice, numeric input, fill in the blank, etc. type questions.  They can be submitted via the Module 1 Quiz that can be found on the Canvas page.  You will have unlimited attempts to take the quiz.
 
-## Application Questions
+## Application Questions (40pts)
 
 [**QA1**](Application_Part3.md#qa1)
 For every $100 increase in income at the CT level, how much does rental price increase?
@@ -75,7 +75,7 @@ The ______ data model represents features in space as discrete two-dimensional _
 
 ---
 
-# Module Assignment
+# Module Assignment (60 pts)
 
 All written answers should be numbered and record in one document, saved as a .pdf, and uploaded to canvas.  The file submissions should also be saved as .pdf and uploaded as a separate document.  **Written answers can be as brief as you want as long as they answer the question.**
 

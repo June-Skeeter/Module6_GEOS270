@@ -8,6 +8,8 @@ nav_order: 1
 
 We use data models represent phenomena in a GIS.  A data model is just a simplified abstractions of reality.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tnd1emcyI_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Learning Outcomes
 
 - Overview of different types of data
