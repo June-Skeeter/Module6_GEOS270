@@ -17,7 +17,7 @@ We are going to overlay the vector data on the raster data to measure the mean N
 * Find the Zonal Statistics as Table tool in the Geoprocessing pane.
 * Choose Van_DA_2016 as the feature zone data.
 * Set DAUID as the Zone Field
-* Set your NDVI layer as the Input value raster.
+* Set your NDVI layer as the Input value raster. *Note use the projected NDVI image, not the classified image you creeted you created in the last step.*
 * Select All statistics types
 * Run
 
