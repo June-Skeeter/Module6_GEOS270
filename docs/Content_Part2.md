@@ -33,9 +33,11 @@ The resolution of our data is a key consideration we must take into account.  It
 
 ---
 
-# Applied Examples of Resolution and Phenomena Types
+# Applied Examples of Resolution
 
 This video gives an applied example the implications data resolution has for the raster and vector data models looking a very **large scale** example using some of the data from field work I did in the Arctic.  Then I give some **smaller scale** examples using NDVI and census data as you will be working with some of these data products in the application portion of this module.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/apak726770w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
