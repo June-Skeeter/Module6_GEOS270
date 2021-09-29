@@ -73,6 +73,33 @@ The ______ data model represents space as a continuous grid of ______ which each
 [**QC2**](Content_Part1.md#qc2)
 The ______ data model represents features in space as discrete two-dimensional ______ , one-dimensional ______ , and/or "zero-dimensional"  points.  Attribute information is stored separately in a ______.
 
+[**QC3**](Content_Part2.md#qc3)
+______ objects have well defined boundaries.  They are countable, meaning there is only a ______ number of them.
+
+
+[**QC4**](Content_Part2.md#qc4)
+______ fields lack well defined boundaries.  Because of this, they can be measured at an ______ number of locations.
+
+
+[**QC5**](Content_Part2.md#qc5)
+Both types of phenomena can be represented using either the raster or vector data model.  However, ______ phenomena are generally better represented by the vector model and ______ phenomena are better represented by the raster data model.
+
+[**QC6**](Content_Part2.md#qc6)
+Higher resolution rasters have have smaller which means they take less memory to store [T/F]
+
+[**QC7**](Content_Part2.md#qc7)
+The ______ problem pertains to how we assign data values to grid cells that cover more than one value.
+
+[**QC8**](Content_Part2.md#qc8)
+Resolution is a property of the [data/map/both], scale is a property of the [data/map/both].
+
+[**QC9**](Content_Part2.md#qc9)
+Polygons in a vector dataset can be single part or multipart [T/F].
+
+[**WC1**](Content_Part2.md#wc1)
+Briefly discuss what resolution means with regards to raster and vector data.  
+
+
 ---
 
 # Module Assignment (60 pts)
