@@ -85,7 +85,7 @@ ______ fields lack well defined boundaries.  Because of this, they can be measur
 Both types of phenomena can be represented using either the raster or vector data model.  However, ______ phenomena are generally better represented by the vector model and ______ phenomena are better represented by the raster data model.
 
 [**QC6**](Content_Part2.md#qc6)
-Higher resolution rasters have have smaller which means they take less memory to store [T/F]
+Higher resolution rasters have smaller cells which means they take less memory to store [T/F]
 
 [**QC7**](Content_Part2.md#qc7)
 The ______ problem pertains to how we assign data values to grid cells that cover more than one value.
@@ -95,9 +95,6 @@ Resolution is a property of the [data/map/both], scale is a property of the [dat
 
 [**QC9**](Content_Part2.md#qc9)
 Polygons in a vector dataset can be single part or multipart [T/F].
-
-[**WC1**](Content_Part2.md#wc1)
-Briefly discuss what resolution means with regards to raster and vector data.  
 
 
 ---
@@ -113,48 +110,29 @@ All written answers should be numbered and record in one document, saved as a .p
 [**WA1**](Application_Part2.md#wa1)
 What is NDVI and what is it used for?  Describe the patterns you see in NDVI across the metro Vancouver area.
 
-<!-- NDVI is a metric for gauging vegetation health/density/"greenness".  It is based off the differential reflectivity between red (low for plants) and near infrared (high for plants).  Across metro van - water/concrete low, residential w/ tree cover medium, forests/agriculture high -->
 
 [**WA2**](Application_Part3.md#wa3)
 What are the differences you notice between the CTs and DAs in terms of size and population?
 
-<!-- CDAs are smaller population/size wise, DAs give full coverage CTs only in CMA (metro areas) -->
 
 [**WA3**](Application_Part5.md#wa3)
 What does data normalization do? How does normalizing effect the relationship with income? Create a new chart with Green Vegetation Fraction on the X-axis and Income on the Y-axis to find out.  How does this compare to when we were looking at the relationship between Total Green Vegetation Area and income?
 
-<!-- Normalizing accounts for a confounding/secondary/other variable by dividing the variable of interest by the confounder.  This helps control for correlation between the two variables. The R2 score goes up to 0.083, Accounting for the different sizes of the DA "improves" the relationship. But not by much -->
 
 [**WA4**](Application_Part6.md#wa4)
 What do the results of this analysis show?  Are there any improvement you think we could make to this analysis?
-
-<!-- The relationship isn't strong, probably because there are other factors that are determine where people with limited resources can afford to live and where those with money choose to live. (7.5 pts)
-
-Things to look at might include: housing cost (rent or land value) instead of income.  Both NDVI & green area combined (eg. multivariate linear regression). Excluding downtown core and focus on just medium density residential areas.  Account for water/beaches (also attracts high income but low NDIV)  .  These are just possible suggestions, they don't have to list these anything that makes sense counts (7.5 pts for listing two or more suggestions, 3.25 pts if just one). -->
-
 
 ### File Submissions
 
 [**FA1**](Application_Part6.md#fa1)
 Export your Layout as a .pdf and upload it to Canvas.
 
-<!-- See example map:
-
-Map showing proper mean NDVI (not green fraction) - 5pts
-
-Chart showing proper mean green fraction vs income (not NDVI) - 5pts
-
-Source statement (Name/source/data/date) - 4ts (1 off for name/date etc.)
-
-Clean presentation & appropriate elements (Text is descriptive/not cut off, north arrow, legend, scale text) - 6 pts
-
-Projection and scale 1:100,000 (should be obvious if the left it in Lambert conformal, Vancouver will be slanted)  - 5pts
- -->
-
 ---
 
 ## Content Questions
 
+[**WC1**](Content_Part2.md#wc1)
+Briefly discuss what resolution means with regards to raster and vector data.  
 
 ---
 

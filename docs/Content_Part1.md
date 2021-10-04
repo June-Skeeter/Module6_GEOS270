@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Videos Sept 27
+title: Data Models
 parent: Content
-# has_children: True
+has_children: True
 nav_order: 1
 ---
 
@@ -15,27 +15,26 @@ nav_order: 1
 {:toc}
 </details>
 
-# Fundamental of GIS
+# Spatial is Special
 
-This video introduces some of the fundamentals of GIS that we will build on to understand spatial data models.
+You might encounter the phrase "Spatial is special" in your time studying GIS.  Spatial data is the foundation of Geographic Information Science, it is what distinguishes GIS from the broader field of data science.  This was succinctly summarized by Waldo Tobler in **The First Law of Geography**:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vxTiRQUvJYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/Toblers_Law.html" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="content/Toblers_Law.html" target="_blank">View Image in New Tab</a>
 
----
 
-# Spatial Data Models
-
-This video introduces some of the concept of spatial data models.  In GIS we use two primary types of data models: **Raster** and **Vector**.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P7VmBQZdIfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-## A Concise Overview
-
-This video gives a concise overview of spatial data models.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PYAGngmfXAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

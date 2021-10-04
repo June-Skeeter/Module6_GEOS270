@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Videos Sept 29
+title: Choosing a Data Model
 parent: Content
-# has_children: True
+has_children: True
 nav_order: 2
 ---
-
 
 
 <details open markdown="block">
@@ -17,27 +16,6 @@ nav_order: 2
 {:toc}
 </details>
 
-# Types of Phenomena
-
-A key determinant of which data model is best for a given application is the type of phenomena we're trying to represent.  This video gives a quick intro to phenomena types.  **Note** you *only* need to watch through 6:07.  After that, the video talks about scale which is something I already covered last week.  But if you want a quick refresher, I encourage you to watch it.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EJ8mrd9j7QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-# Data Resolution
-
-The resolution of our data is a key consideration we must take into account.  It is relevant for both the Raster and Vector models.  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uFWzNAGuC1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
-# Applied Examples of Resolution
-
-This video gives an applied example the implications data resolution has for the raster and vector data models looking a very **large scale** example using some of the data from field work I did in the Arctic.  Then I give some **smaller scale** examples using NDVI and census data as you will be working with some of these data products in the application portion of this module.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/apak726770w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -57,7 +35,7 @@ Both types of phenomena can be represented using either the raster or vector dat
 
 ### QC6
 
-Higher resolution rasters have have smaller which means they take less memory to store [T/F]
+Higher resolution rasters have smaller cells which means they take less memory to store [T/F]
 
 ### QC7 
 

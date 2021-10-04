@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal.js template</title>
+  <!-- credit https://bl.ocks.org/elipousson/f64814b1ee4aab5d83775bfbf556d35a -->
+
+  <meta name="description" content="Simple Reveal.js slidedeck template. Source files loaded from jsDelivr.">
+  <meta name="author" content="jitesh@spinspire.com">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css">
+  <!-- see https://cdnjs.com/libraries/reveal.js/3.6.0 for what's available -->
+  <!-- examples: simple, beige, black, blood, league, moon, night, serif, sky, solarized, white ... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/sky.css" id="theme">
+  <!-- see: https://cdnjs.com/libraries/highlight.js/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/ir-black.min.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    // Load print, pdf stylesheets from jsDelivr
+    var srcUrlPrefix = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/';
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = srcUrlPrefix + (window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css');
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  <style>
+    body {
+      /* make it totally black */
+      background-color: black;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 1
+    }
+
+
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:60%;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <div class="slides">
+
+       <section>
+        <h2>Raster Data Model</h2>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>Represents space <b>continuously</b> as a grid of cell (aka pixels)</p>
+          <p>-A simple but storage intensive format.</p>
+           </div>
+          <div class="right" style="text-align: Right;">
+          <p><img src="images/03-raster-example.png" width="600"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h2>Raster Data Model</h2>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>Each cell can have <b>only one value</b>.  Multiple raster (bands) can be combined to yield more information</p>
+          <p>-This is how digital photos work.  The store three separate bands (R,B,& B)</p>
+           </div>
+          <div class="right" style="text-align: Right;">
+          <p><img src="images/03-raster-example.png" width="600"></p>
+           </div>
+      </section>
+
+       <section>
+        <h3>Resolution</h3>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>Cell size dictates <b>resolution</b>.</p>
+          <p><b>10 m cells</b> are:</p>
+          <p>-10 x 10 m (100 m<sup>2</sup>)</p>
+          <p><b>1 m cells</b> are:</p>
+          <p>-1 x 1 m (1 m<sup>2</sup>)</p>
+           </div>
+          <div class="right" style="text-align: Right;">
+          <p><img src="images/03-raster-example.png" width="600"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>Extent</h3>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>The number of rows and columns given the cells size, determines the <b>extent</b> (aka domain or bounds) of a raster image.</p>
+           </div>
+          <div class="right" style="text-align: Right;">
+          <p><img src="images/03-raster-example.png" width="600"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>Extent</h3>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>1 m cell size, 5 rows x 5 columns: </p>
+          <p><b>Total area</b> 25 m<sup>2</sup></p>
+          <p>10 m cell size, 5 rows x 5 columns: </p>
+          <p><b>Total area</b> 2500 m<sup>2</sup></p>
+           </div>
+          <div class="right" style="text-align: Right;">
+          <p><img src="images/03-raster-example.png" width="600"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>Resolution</h3>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Has significant implications for how data will be represented <i>depending</i> on <b>scale</b> </p>
+          <p>I'll cover more on Wednesday</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-raster-resolution.png" width="400"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>Raster Overlay</h3>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Algebraic expressions can be performed efficiently.</p> 
+          <p>A <b>key advantage</b> of raster data model.</p>
+          <p>A = Winter Temperature, B = Summer Temperature</p>
+           </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-raster-overlay.png" width="500"></p>
+          <p>Range: B-A</p>
+          <p>Average: (A+B)/2</p>
+          <p></p>
+           </div>
+      </section>
+
+    </div><!-- .slides -->
+
+  </div><!-- .reveal -->
+
+  <!-- not needed since 3.8.0 -->
+  <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/head.min.js"><script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: false,
+      progress: false,
+      history: true,
+      center: true,
+      overview: false,
+      loop: false,
+
+      transition: 'none', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins, loaded from jsDelivr
+      dependencies: [
+        { src: srcUrlPrefix + 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+        { src: srcUrlPrefix + 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+        { src: srcUrlPrefix + 'plugin/zoom-js/zoom.js', async: true },
+        { src: srcUrlPrefix + 'plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>

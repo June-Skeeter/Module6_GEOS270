@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal.js template</title>
+  <!-- credit https://bl.ocks.org/elipousson/f64814b1ee4aab5d83775bfbf556d35a -->
+
+  <meta name="description" content="Simple Reveal.js slidedeck template. Source files loaded from jsDelivr.">
+  <meta name="author" content="jitesh@spinspire.com">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css">
+  <!-- see https://cdnjs.com/libraries/reveal.js/3.6.0 for what's available -->
+  <!-- examples: simple, beige, black, blood, league, moon, night, serif, sky, solarized, white ... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/sky.css" id="theme">
+  <!-- see: https://cdnjs.com/libraries/highlight.js/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/ir-black.min.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    // Load print, pdf stylesheets from jsDelivr
+    var srcUrlPrefix = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/';
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = srcUrlPrefix + (window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css');
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  <style>
+    body {
+      /* make it totally black */
+      background-color: black;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 1
+    }
+
+
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:60%;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <div class="slides">
+
+       <section>
+        <h2>Vector Data Model</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Represents an object as a set of x,y coordinate pairs (points) linked to set of descriptive attribute about that object.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector-example.png" width="600"></p>
+           </div>
+      </section>
+
+
+      <section>
+        <h2>Points</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>“Zero-dimensional”: no length, or width.</p>
+          <p>A point feature is an individual 𝒙,𝒚 coordinate pair representing a precise location, that have some linked attribute information.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector-example.png" width="600"></p>
+           </div>
+      </section>
+
+
+      <section>
+        <h2>Points</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Points are great for representing a variety of objects, depending on the scale.  Trees, fire hydrtants, etc. can be points at almost any scale, cities can be points at small sacles.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector-points.png" width="600"></p>
+           </div>
+      </section>
+
+
+
+      <section>
+        <h2>Lines</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>One-dimensional, they have length but no width.</p>
+          <p>A line has two or more points.  Every line <b>must</b> have a start point and end point.  <i>May</i> also have middle points (vertices).</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector-example.png" width="600"></p>
+           </div>
+      </section>
+
+        <section>
+        <h2>Lines</h2>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>Lines are also great, depending on the scale.</p>
+          <p>  Hiking trails, power lines etc. can be represented as lines in almost most applications.</p> 
+           </div>
+          <p><img src="images/AT_map.png" width="600"></p>
+           </div>
+      </section>
+
+      <section>
+        <h2>Lines</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>When making smaller scale maps, its often sufficient to represent rivers and roads as lines, though at large scales we might elect to use a polygon.  </p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-river-scale.png" width="600"></p>
+           </div>
+      </section>
+
+      <section>
+        <h2>Polygons</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Two-dimensional, length x width = <b>area</b>  </p>
+          <p>All polygons consist of a set of <b>at three</b> or more points (vertices) connected by line segments (edges) called “edges” that connect to form an enclosed shape.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector-example.png" width="600"></p>
+           </div>
+      </section>
+
+        <section>
+        <h2>Polygons</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>All polygons form an enclosed shape; some can also have "holes" (think doughnuts!) called interior rings.  Each interior ring is a separate set vertices and edges contained within the polygon; interior rings <b>cannot</b> overlap.  </p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/doughnut.jpg" width="600"></p>
+           </div>
+      </section>
+
+      <section>
+        <h2>Polygons</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Polygons are useful for representing many different objects depending: political boundaries, climate zones, lakes, etc.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector.png" width="600"></p>
+           </div>
+      </section>
+
+
+
+      <section>
+        <h2>Polygons</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p><img src="images/building_poly.png" width="300"></p>
+          <p>At large scales they can represent things like buildings</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/building_point.png" width="300"></p>
+          <p>Which we might choose to represent as points at smaller scales</p>
+           </div>
+      </section>
+
+
+      <section>
+        <h2>Multi-part Vectors</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Sometimes, an object has multiple parts, that are spatially separated.  In these circumstances, the vector model allows for multi-polygon, multi-line, or multi-point objects.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-multi-polygon.png" width="600"></p>
+          <!-- <p><img src="images/03-bc-road-map.jpg" width="600"></p> -->
+           </div>
+      </section>
+
+      <section>
+        <h2>Multi-part Vectors</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Roads sometimes need to be stored as multi-lines as well, for example Highway 1 crosses the Georgia Straight from Vancouver to Nanaimo.  If we want the to represent the entire Highway as one object, we need to use a multi-line.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-bc-road-map.jpg" width="600"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>Tabular Data</h3>
+        <div class="container"></p>
+           </div>
+          <div class="left" style="text-align: Right;">
+          <p>The non-spatial attribute data is usually stored in a <b>Tabular</b> format separate from the spatial data.</p>
+           </div>
+          <div class="right" style="text-align: center;">
+          <p><img src="images/03-vector-attribute.png" width="600"></p>
+          <p>A key advantage of vector data is the ability to store/retrieve many attributes quickly.</p>
+      </section>
+
+       <section>
+        <h3>Linking Spatial and Non-Spatial Data</h3>
+        <div class="container">
+          <div class="right" style="text-align: Left;">
+          <p><img src="images/03-vector-attribute.png" width="600"></p>
+          <p>Attributes are linked to shapes by an index</p>
+           </div>
+          <div class="left" style="text-align: Right;">
+          <p><img src="images/03-vector.png" width="600"></p>
+           </div>
+      </section>
+
+       <section>
+        <h2>Resolution</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>Vector data also has a resolution although it has a somewhat different definition and isn't as straightforward.</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-vector-resolution.png" width="400"></p>
+           </div>
+      </section>
+
+    </div><!-- .slides -->
+
+  </div><!-- .reveal -->
+
+  <!-- not needed since 3.8.0 -->
+  <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/head.min.js"><script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: false,
+      progress: false,
+      history: true,
+      center: true,
+      overview: false,
+      loop: false,
+
+      transition: 'none', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins, loaded from jsDelivr
+      dependencies: [
+        { src: srcUrlPrefix + 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+        { src: srcUrlPrefix + 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+        { src: srcUrlPrefix + 'plugin/zoom-js/zoom.js', async: true },
+        { src: srcUrlPrefix + 'plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>

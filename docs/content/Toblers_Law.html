@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal.js template</title>
+  <!-- credit https://bl.ocks.org/elipousson/f64814b1ee4aab5d83775bfbf556d35a -->
+
+  <meta name="description" content="Simple Reveal.js slidedeck template. Source files loaded from jsDelivr.">
+  <meta name="author" content="jitesh@spinspire.com">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css">
+  <!-- see https://cdnjs.com/libraries/reveal.js/3.6.0 for what's available -->
+  <!-- examples: simple, beige, black, blood, league, moon, night, serif, sky, solarized, white ... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/sky.css" id="theme">
+  <!-- see: https://cdnjs.com/libraries/highlight.js/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/ir-black.min.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    // Load print, pdf stylesheets from jsDelivr
+    var srcUrlPrefix = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/';
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = srcUrlPrefix + (window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css');
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  <style>
+    body {
+      /* make it totally black */
+      background-color: black;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 1
+    }
+
+
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:60%;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <div class="slides">
+
+       <section>
+        <h2>First Law of Geography</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>"Everything is related to everything else, but near things are more related than distant things."</p>
+          <p>-Waldo Tobler</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-spatial-is-special.jpg" width="600"></p>
+           </div>
+      </section>
+
+
+       <section>
+          <h3>This might seem obvious</h3>
+          <div class="col" style="text-align: Left;"> 
+          <p>-People in the same neighborhood interact more.</p> 
+          <p>-Orca pods in different areas develop different dialects.</p>
+          <p>-Trees on Vancouver Island are more related to their neighbors than to a trees in the New Brunswick.</p>
+          </div>
+      </section>
+
+       <section>
+        <h2>First Law of Geography</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+          <p>"Everything is related to everything else, but near things are more related than distant things."</p>
+          <p>-There is some nuance to the statement</p>
+           </div>
+          <div class="col" style="text-align: Right;">
+          <p><img src="images/03-spatial-is-special.jpg" width="600"></p>
+           </div>
+      </section>
+
+       <section>
+        <h3>Not a Guarantee of Similarity</h3>
+        <div class="container">
+          <div class="left" style="text-align: Left;">
+          <p>Vancouver snowfall:</p>
+          <p>- < 30 cm/yr</p>
+          <p>Grouse Mountain:</p>
+          <p>- 9 m/yr</p> 
+           </div>
+          <div class="right" style="text-align: Right;">
+          <p><img src="images/bc_snow.png" width="800"></p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>How to Describe Similarity?</h3>
+        <div class="container">
+          <div class="col" style="text-align: center;">
+          <!-- <p>-Vancouver's average snowfall < 30 cm/yr</p> -->
+          <!-- <p>-Grouse Mountain average snowfall > 9 m/yr.</p>  -->
+           <!-- </div> -->
+          <!-- <div class="right" style="text-align: Right;"> -->
+          <p><img src="images/03-heterogeneity.jpg" width="800"></p>
+           </div>
+      </section>
+
+       <section>
+        <h3>Spatial Autocorrelation</h3>
+        <div class="container">
+          <div class="col" style="text-align: Center;">
+          <p><img src="images/03-autocorrelation.png" width="800"></p>
+          <p>The measure of similarity between objects across space.  It allows us to make some a key assumptions when representing spatial data.</p>
+           </div>
+      </section>
+
+       <section>
+        <h3>Can't see the Forest for the Trees</h3>
+        <div class="container">
+          <div class="left" left = "30%" style="text-align: Left;">
+          <p>We don't need the location of every tree to map a forest.</p>
+          <p>-Use average presence of trees over a larger area.</p>
+           </div>
+          <div class="right" right="70%" style="text-align: Right;">
+          <p><img src="images/03-forest-for-the-trees.jpg" width="800"></p>
+           </div>
+      </section>
+
+       <section>
+        <h3>Spatial Autocorrelation</h3>
+        <div class="container">
+          <div class="col" style="text-align: Center;">
+          <p><img src="images/03-autocorrelation.png" width="800"></p>
+          <p>Closely linked to scale, we'll discuss this more in depth down the line.</p>
+           </div>
+      </section>
+
+
+       <section>
+        <h3>Data Models</h3>
+        <div class="container">
+          <div class="col" style="text-align: Center;">
+          <p><img src="images/03-vector-v-raster.jpg" width="800"></p>
+          <p>Exploit spatial autocorrelation to simplify our representation of spatial data.</p>
+           </div>
+      </section>
+
+
+
+    </div><!-- .slides -->
+
+  </div><!-- .reveal -->
+
+  <!-- not needed since 3.8.0 -->
+  <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/head.min.js"><script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: false,
+      progress: false,
+      history: true,
+      center: true,
+      overview: false,
+      loop: false,
+
+      transition: 'none', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins, loaded from jsDelivr
+      dependencies: [
+        { src: srcUrlPrefix + 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+        { src: srcUrlPrefix + 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+        { src: srcUrlPrefix + 'plugin/zoom-js/zoom.js', async: true },
+        { src: srcUrlPrefix + 'plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>
