@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Choosing a Data Model
+title: Phenomena and Data Types
 parent: Content
 has_children: True
 nav_order: 2
@@ -15,6 +15,11 @@ nav_order: 2
 1. TOC
 {:toc}
 </details>
+
+# Which spatial data model is best?
+
+No single data model is suitable for all types of data or analysis.  Many times you will use both raster and vector data in the same analysis.  There is not a "best" model.  Vector data is better for some situations, raster data is better for others.  The type of data model use to represent something is dependent on a number of factors.  A key consideration is the **Type of Phenomenon** being represented.
+
 
 
 ---

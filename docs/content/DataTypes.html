@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Reveal.js template</title>
+  <!-- credit https://bl.ocks.org/elipousson/f64814b1ee4aab5d83775bfbf556d35a -->
+
+  <meta name="description" content="Simple Reveal.js slidedeck template. Source files loaded from jsDelivr.">
+  <meta name="author" content="jitesh@spinspire.com">
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css">
+  <!-- see https://cdnjs.com/libraries/reveal.js/3.6.0 for what's available -->
+  <!-- examples: simple, beige, black, blood, league, moon, night, serif, sky, solarized, white ... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/simple.css" id="theme">
+  <!-- see: https://cdnjs.com/libraries/highlight.js/ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/ir-black.min.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    // Load print, pdf stylesheets from jsDelivr
+    var srcUrlPrefix = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/';
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = srcUrlPrefix + (window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css');
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+  <style>
+    body {
+      /* make it totally black */
+      /*background-color: black;*/
+      background-color: #ffefc2;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .col {
+      flex: 1
+    }
+
+
+.left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:40%;
+  z-index:-10;
+}
+
+.right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:60%;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <div class="slides">
+
+       <section>
+        <h2>Qualitative Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+          <p>These data are categorical; they are strictly descriptive and lack any meaningful numeric value.</p>
+          <p>-Textual or coded numerals</p>
+          <p>-Measured on either a <b>Nominal</b> or <b>Ordinal</b> scale.</p>
+           </div>
+      </section>
+
+
+       <section>
+        <h2>Nominal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Just names or categories with no ranking or direction are nominal.</p>
+            <p>Categories are not more/less, better/worse, they are just different.</p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Nominal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Examples:</p>
+            <p>Flower Species</p>
+            <br>
+            <br>
+          </div>
+          <div class="col" style="text-align: right;">
+          <p><img src="images/03-flowers-nominal.png" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Nominal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Examples:</p>
+            <p>Flower Species</p>
+            <p>Zoning Categories</p>
+            <br>
+          </div>
+          <div class="col" style="text-align: right;">
+          <p><img src="images/03-zoning.png" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Nominal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Examples:</p>
+            <p>Flower Species</p>
+            <p>Zoning Categories</p>
+            <p>Landcover Classification</p>
+          </div>
+          <div class="col" style="text-align: right;">
+          <p><img src="images/03-lc-class.png" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Operations</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>With nominal data we can check equivalency and count frequencies, but nothing else.</p>
+          </div>
+          <div class="col" style="text-align: right;">
+          <p><img src="images/03-nominal-opperations.png" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Ordinal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>These data are categories and have a some ranking or directionality.  Examples include:</p> 
+            <p>-Spice levels</p>
+            <br>
+            <br>
+          </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-spicy.jpg" width="500"></p>
+          </div>
+        </div>
+      </section>
+      
+       <section>
+        <h2>Ordinal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>These data are categories and have a some ranking or directionality.  Examples include:</p> 
+            <p>-Spice levels</p>
+            <p>-Relative heights</p>
+            <br>
+          </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-dogs-ordinal.png" width="350"></p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Ordinal Scale</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>These data are categories and have a some ranking or directionality.  Examples include:</p> 
+            <p>-Spice levels</p>
+            <p>-Relative heights</p>
+            <p>-Compas Direction</p>
+            <br>
+          </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-compas.png" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Operations</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>We can the same operations as nominal data, plus a a bit more.</p>
+            <p>Check order/rank (greater than, less than)</p>
+            <br>
+          </div>
+          <div class="col" style="text-align: right;">
+          <p><img src="images/03-spicy.jpg" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+
+
+       <section>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p><i>Sometimes</i> we can calculate the median.  For odd sets the median is the middle.  For even sets its the average of the middle two.  Group 2, both values are "Neutral".  Group 3, they are "Neutral" and "Agree".  We can't average these.</p>
+          </div>
+          <div class="col" style="text-align: right;">
+          <p><img src="images/03-ordinal-operatons.png" width="500"></p>
+          <p>One solution is to <i>arbitrarily</i> assign a numeric score.  </p>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Graded Membership</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>There are often "exceptions" that blur the lines a bit.  These are known as fuzzy variables, and we can use a <b>Graded Membership</b> to assign them to categories.</p>
+          </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-fuzzy.jpg" width="500"></p>
+            <p>Where to draw the line between forest/alpine?</p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Graded Membership</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>A simple approach would be a "winner take all" approach.  If a plot is 5% bare rock, 40% forest, and 45% alpine meadow, the area will be classified as alpine meadow.</p>
+          </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-fuzzy.jpg" width="500"></p>
+            <p>Where to draw the line between forest/alpine?</p>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Graded Membership</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p><b>The downside:</b> information about variability within the area is lost.  In practice, many of the qualitative data we work with in GIS, especially those describing <i>natural phenomena</i>, are actually graded membership variables.</p>
+        </div>
+      </section>
+
+      
+       <section>
+        <h2>Quantitative Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+          <p>These data are numeric; they describe the quantities associated with a phenomenon.  The values are separated by a unit that has inherent meaning (unlike ordinal data).</p>
+          <p>In addition to the operations we perform on Qualitative data; we can <b>always</b> calculate measures of central tendency (mean/median) and differences (add/subtract)</p>
+           </div>
+      </section>
+
+       <section>
+        <h2>Kinds of Numbers</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p><br></p>
+          <p><b>Discrete:</b> Integers (whole round numbers), derived from counts, cannot be infinitely subdivided</p>
+          <p>&nbsp; &nbsp;ex. <b>Population</b></p>
+          <p><b>Continuous:</b> Floats (decimals), derived from measurements, "infinitely" divisible and non-countable</p>
+          <p>&nbsp; &nbsp;ex. <b>Temperature</b></p>
+        </div>
+          </div>
+      </section>
+
+
+       <section>
+        <h2>Quantitative Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: left;">
+          <p>Discrete <i>and</i> continuous data can be measured on an <b>Interval</b> or <b>Ratio</b> scale.  These types of quantitative data are closely related, but have <b>one important distinction</b>.</p>
+           </div>
+      </section>
+
+
+       <section>
+        <h2>Ratio Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>These data have fixed, <b>absolute zero points</b>.</p>
+            <p>-This means they <b>cannot take negative values</b></p>
+            <p>-<i>But</i> we <b>can multiply/divide</b> two values (meaningful ratios)</p>
+            <br>
+            <br>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Ratio Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: center;">
+            <p>Population is a good example of <i>discrete</i> ratio data.</p>
+            <p></p>
+          <!-- </div> -->
+          <!-- <div class="col" style="text-align: center;"> -->
+          <img src="images/03-ratio-population.png" width="600">
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Ratio Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: center;">
+            <p>Tree height is a good example of <i>continuous</i> ratio data.</p>
+          <img src="images/03-tree-height.gif" width="500">
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Ratio Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Other examples of ratio data include:income, rental cost, and units of time (years, seconds, etc.)  </p>
+            <p>-Temperature *in Kelvin (Continuous)</p>
+            <p>-Precipitation  (Continuous)</p>
+            <p>-Units of time (Continuous)</p>
+            <p>-Rental cost (Discrete-ish)</p>
+            <p>-Popular Vote Totals (Discrete)</p>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Interval Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>These data on the other hand, have an <i>arbitrarily</i> set zero point.</p>
+            <p>-This means they <b>can take negative values</b></p>
+            <p>-<i>But</i> we <b>cannot multiply/divide</b> two values (not meaningful ratios)</p>
+          </div>
+        </div>
+      </section>
+
+
+       <section>
+        <h2>Interval Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>A key example to highlight the difference: <b>Celsius</b> (interval) vs. <b>Kelvin</b> (ratio).</p>
+            <p>-&deg;C = &deg;K-273.15.</p>
+            <p>-Zero &deg;K is "Absolute Zero"</p>
+            <p>-Zero &deg;C is the freezing point of water</p>
+          </div>
+          <div class="col" style="text-align: center;">
+          <p><img src="images/03-interval-ratio-temperature.png" width="500"></p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Interval Data</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Temperature in Celsius is a <i>continuous</i> interval variable.</p>
+            <p>Other examples include:</p>
+            <p>-ph scale (continuous)</p>
+            <p>-Standardized test scores</p>
+            <p>-Dates (discrete)</p>
+            <p>-Times (discrete-ish)</p>
+            <!--  the pH scale, IQ test scores, elevation (relative to a datum) dates (April 12th, 2011), and times (11:00 A.M.).< -->/p>
+          </div>
+        </div>
+      </section>
+
+       <section>
+        <h2>Derived Ratio</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>Sometimes we want to account for the influence of one variable when analyzing another.  To do this, we can divide one value by by another to get the ratio of the two, also known as a **derived ratio**.  This process is sometimes referred to as **Normalizing** or **Standardizing** our data.  The basic formula is: $C=\frac{A}{B}$, where A is our variable of interest, B is our confounding variable, and C is our new derived ratio.</p>
+          </div>
+<!--           <div class="col" style="text-align: center;">
+          <p><img src="images/03-normalized.png" width="500"></p>
+          </div> -->
+        </div>
+      </section>
+
+    <section>
+        <h2>Derived Ratio</h2>
+        <div class="container">
+          <div class="col" style="text-align: Left;">
+            <p>There are many circumstances where we might need to do this.  A common example is housing affordability.</p>
+            <p>-I make 1,805/mo teaching this course</p>
+            <p>-My rent $1,025/mo</p>
+            <p>-57% of my income from teaching goes to rent :(</p>
+          </div>
+        </div>
+      </section>
+
+    <section>
+        <h2>Derived Ratio</h2>
+        <div class="container">
+          <!-- <div class="col" style="text-align: Left;"> -->
+            <p>Another would be population proportions, ex: % Indigenous Population</p>
+          <!-- </div> -->
+          <!-- <div class="col" style="text-align: center;"> -->
+          <p><img src="images/03-normalized.png" width="500"></p>
+          <!-- </div> -->
+        </div>
+      </section>
+
+
+    </div><!-- .slides -->
+
+  </div><!-- .reveal -->
+
+  <!-- not needed since 3.8.0 -->
+  <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/lib/js/head.min.js"><script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+  <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: false,
+      history: true,
+      center: true,
+      overview: false,
+      loop: false,
+
+      transition: 'none', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins, loaded from jsDelivr
+      dependencies: [
+        { src: srcUrlPrefix + 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+        { src: srcUrlPrefix + 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: srcUrlPrefix + 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+        { src: srcUrlPrefix + 'plugin/zoom-js/zoom.js', async: true },
+        { src: srcUrlPrefix + 'plugin/notes/notes.js', async: true }
+      ]
+    });
+  </script>
+</body>
+
+</html>
