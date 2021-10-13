@@ -1,18 +1,14 @@
 ---
 layout: default
-title: Cartography Tips!
+title: Choice of Data Model
 parent: Content
 has_children: True
 nav_order: 3
 ---
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
-# For Next Week
+# Putting it all together
+
+Most phenomenon can be represented with either the raster or vector model.  So when do we use which model?  
+
+<img src="content/images/03-vector-v-raster.jpg" width="900">
