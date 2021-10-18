@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Module 3
+title: Module 4
 nav_order: 1
 ---
 
-# Data Visualization and CLassification
+# Data Visualization and Classification
 
+Now that we've covered the types of data and data modesls.  Lest talk about how we display that data and make maps with it!
 
 # Deliverables
 

@@ -1,60 +1,53 @@
 ---
 layout: default
-title: Vector Data
+title: Data Download and Setup 
 parent: Application
 nav_order: 1
 ---
 
-# Vector Data
 
-## Setting up your GeoDatabase
-
-By default, ArcPro creates a geodatabase when you start a new project.  We're going to create a Feature Dataset within this geodatabase and add the census data to it.  Feature Datasets are collections of Feature Classes that are all in the same coordinate system.  Data that comes from Stats Canada is by default in the Lambert Conformal Conic Projection.  We're going to use a Universal Transverse Mercator projection instead since we are working with a small area (Vancouver).
-
-**1**{: .label .label-red } Create the CensusData Feature Dataset and import the census layers.  You can reference the video below if you need a refresher.
-* Set the Coordinate System to NAD 1983 UTM Zone 10N
-	* NAD 1983 is the name of the datum (North American Datum 1983)
-	* UTM Zone 10N is the name of the projection (Universal Transverse Mercator, Zone 10 N)
-	 * You can set this coordinate system to your favorites by right clicking and selecting add to favorites.  This will make it easier to find in the future!
-* Add Van_DA_2016.shp and and VanCMS_CT_2016.shp from the Van_Census.zip file you downloaded.
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="content/videos/FeatureDataset.mp4" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="content/videos/FeatureDataset.mp4" target="_blank">View Image in New Tab</a>
+1. TOC
+{:toc}
 
 
-## Create the Project Boundary File
-We need to create a simple boundary file to upload to Google Earth Engine so we can download satellite for the study area.  We can do this quickly using the dissolve tool.
+# Download the Data
 
-**2**{: .label .label-red } Use the Dissolve tool to create the boundary file.
-* In the Geoprocessing pane, find the Dissolve tool.
-* Set VanCMA_CT_2016 as the input
-* **Note** Geoprocessing results are by default saved to your Van_NDVI.gdb, but files in .gdb are saved in a format that can't be read by Google Earth Engine.
-	* Instead, save the Output one leve up in your Van_NDVI project folder and name it Boundary.
-* Remove this layer from your table of contents.  We don't need it in this map project.	
+## Login to Simply Analytics
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="content/videos/Dissolve.mp4" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="content/videos/Dissolve.mp4" target="_blank">View Image in New Tab</a>
+We're gong to download some population estimates for 2021 using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  You accesss to this resrouce via the UBC library, so you can also find it by Googlling "Simply Analytics UBC".  It should be one of the first results.  On the library page, click "Connect to the Resource".  This will redirect you to the simply analytics logon page.  Click the link to create a new account.
+
+<img src='content/images/connect.png' width = 300>
+
+## Querrying the Database
+
+Download the data folliwing the instructions in this video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eEtLTafGxbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### QA
+
+Simply Anayticis allows you to download data about bussinesses locations. [T/F]
+
+### WA
+
+Do you think this bussiness locations (restaurants, groceries) might be helpful when thinking about the cost of food?
+
+
+## Import the Data
+
+Check your eamil for the downlaod link.  Extract the Simply Analytics shapefile to the Module4/Current_Year_Estimate folder.
+
+# Pre-Processing
+
+Typically, we have to do a few things to our data to get everything setup and ready to go.  
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YRm8Bv958gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### WA 
+
+Which projection did did choose for the Module 4 project?  Why did I choose this projection?
+
+
+
