@@ -17,7 +17,13 @@ nav_order: 1
 
 ## Login to Simply Analytics
 
-We're gong to download some population estimates for 2021 using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  You access to this resource via the UBC library, so you can also find it by Googling "Simply Analytics UBC".  It should be one of the first results.  On the library page, click "Connect to the Resource".  This will redirect you to the simply analytics logon page.  Click the link to create a new account.  Then download the data following the video instructions below:
+We're gong to download some population estimates for 2021 using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  You access to this resource via the UBC library, so you can also find it by Googling "Simply Analytics UBC Library".  One of the first results will be the Library Indexs & Databases page.  On the library page, click "Connect to the Resource".  This will redirect you to the simply analytics logon page.  Click the link to create a new account.  **Note** you have to connect via the library, otherwise you will be need to login via the UBC VPN first.
+
+<img src="content/images/connect.png">
+
+### Download the Data
+
+Once you're setup, you can download the data following the video instructions below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eEtLTafGxbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
