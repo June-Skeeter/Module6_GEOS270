@@ -12,7 +12,6 @@ nav_order: 3
 * Use Simply Analytics to download census data
 * Apply different data classification methods
 * Practice creating effective visualizations
-* Define your own research question
 
 ## Research Question
 

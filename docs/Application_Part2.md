@@ -30,7 +30,7 @@ Statistics Canada Now uses the Population Centre and Rural Area Classification:
 |------------------|----------------------------------------|-------------------------------------------------------------------------|------------------------------------------|
 |Same as old method|Not Rural **and**<br>Population < 30,000|Not Rural **and**<br>Population >= 30,000 **and**<br>Population < 100,000|Not Rural **and**<br>Population >= 100,000|
 
-### WA
+### WA3
 
 Skim the Introduction of the [Documentation](https://www.statcan.gc.ca/eng/subjects/standard/pcrac/2016/introduction) explaining the classification scheme.  What was the reasoning behind updating from the old Rural/Urban method?
 
@@ -42,7 +42,7 @@ In this video I show you how to apply the old Urban/Rural Classification to the 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uMLtpB6Xjqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA3
 
 The Select by Attribute tool lets us use SQL (Structured Query Language) to define expressions for querying vector data. [T/F]
 

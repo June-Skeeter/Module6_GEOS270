@@ -49,7 +49,7 @@ Watch the video bellow for tips on how to stylize your charts before submitting 
 
 Submit your Bar Chart and Box Plot to Canvas.
 
-### WA
+### WA4
 
 Create Scatter Plot with Population Density on the X-Axis and Income_on_Food on the Y axis.  Does the r2 score indicate a relationship?  How does classifying the data help us reveal patterns in the data we cant easily see in the scatter plot?
 

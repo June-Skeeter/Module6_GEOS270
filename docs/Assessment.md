@@ -66,11 +66,11 @@ Supervised classification methods area always better than unsupervised because h
 
 ### [QC9](Content_Part2.md#qc9)
 
-The natural breaks algorithm is a(n) _______ classification method that looks _____ similiarity within classes and ______ dissimilarity between classes.
+The natural breaks algorithm is a(n) _______ classification method that looks _______ similarity within classes and _______ dissimilarity between classes.
 
 ### [QC10](Content_Part2.md#qc10)
 
-Classification and regression trees (CART) are a _____ classification method that requires a user to provide ____ data.
+Classification and regression trees (CART) are a _______ classification method that requires a user to provide _______ data.
 
 ### [QC11](Content_Part2.md#qc11)
 
