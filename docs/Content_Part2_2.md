@@ -7,5 +7,5 @@ nav_order: 2
 ---
 
 
-# Unsupervised Classification
+# Supervised Classification
 
