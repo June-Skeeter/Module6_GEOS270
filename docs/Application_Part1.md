@@ -20,7 +20,7 @@ We're gong to download some population estimates for 2021 using [Simply Analytic
 
 ## Querrying the Database
 
-Download the data folliwing the instructions in this video.
+Download the data folliwing the video instructions below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eEtLTafGxbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -40,10 +40,13 @@ Check your eamil for the downlaod link.  Extract the Simply Analytics shapefile 
 
 # Pre-Processing
 
-Typically, we have to do a few things to our data to get everything setup and ready to go.  
+Typically, we have to do a few things to our data to get everything setup and ready to go.  Get your data ready to work with following the video instructions bellow:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YRm8Bv958gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### QA
+
+We used the clip tool to ensure 
 
 ### WA 
 
