@@ -26,7 +26,7 @@ It is important to display your results in an clean, transparent, and accessible
 
 ### QC1
 
-It is important to avoid using qualitative color pallets or graduated symbols for _____ data because they can imply a ranking/direction, even though this type of data has no rank/direction.
+It is important to avoid using sequential color pallets or graduated symbols for _____ data because they can imply a ranking/direction, even though this type of data has no rank/direction.
 
 ### QC2
 
@@ -34,12 +34,7 @@ Diverging color maps are great for showing deviations from a mean value. [T/F]
 
 ### QC3
 
-Sequential color maps use gradations of different shades (light/dark) of the same:
-
-- Hue
-- Saturation
-- Value
-
+Sequential color maps use gradations of different shades (light/dark) of the same color. [T/F]
 
 ---
 

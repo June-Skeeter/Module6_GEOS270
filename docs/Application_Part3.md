@@ -29,6 +29,11 @@ Box plots are most useful for looking at counts [T/F]
 
 In which Population Centre and Rural Area class does the the largest proportion of BC's population live?
 
+- Large Urban Population Centre
+- Rural
+- Small Population Centre
+- Medium Population Centre
+
 ### QA6
 
 What proportion of BC's overall population lives in Rural Areas?   (Round to the nearest tenth)  *Hint* Sum the four classes to get the total population.

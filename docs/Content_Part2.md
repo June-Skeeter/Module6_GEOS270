@@ -32,7 +32,7 @@ Supervised classification methods area always better than unsupervised because h
 
 ### QC9
 
-The natural breaks algorithm is a(n) _______ classification method that looks _______ similarity within classes and _______ dissimilarity between classes.
+The natural breaks algorithm is a(n) _______ classification method that seeks to _______ similarity within classes and _______ dissimilarity between classes.
 
 ### QC10
 
