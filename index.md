@@ -6,7 +6,7 @@ nav_order: 1
 
 # Data Visualization and Classification
 
-Now that we've covered the types of data and data modesls.  We're going to cover how we display that data and make maps with it!
+Now that we've covered the types of data and data models.  We're going to cover how we display data in clean and effective ways.
 
 # Deliverables
 

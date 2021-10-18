@@ -21,25 +21,23 @@ Now that we've classified the data, lets look for some patterns.  The video inst
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PPaDjj07tRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA4
 
 Box plots are most useful for looking at counts [T/F]
 
-### QA 
+### QA5
 
 In which Population Centre and Rural Area class does the the largest proportion of BC's population live?
 
-### QA
+### QA6
 
 What proportion of BC's overall population lives in Rural Areas?   (Round to the nearest tenth)  *Hint* Sum the four classes to get the total population.
 
-<!-- 29.0 -->
 
-### QA
+### QA7
 
 What is the median percentage of their income people in Rural areas spend on food?  (Round to the nearest tenth)
 
-<!-- 17.2 -->
 
 ---
 

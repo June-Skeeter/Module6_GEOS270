@@ -21,11 +21,11 @@ We're gong to download some population estimates for 2021 using [Simply Analytic
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eEtLTafGxbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA1
 
-Simply Anayticis allows you to download data about businesses locations. [T/F]
+Simply Analytics allows you to download data about businesses locations. [T/F]
 
-### WA
+### WA1
 
 Do you think this kind of information (locations of restaurants, groceries, etc.) might be helpful when studying the cost of food in a region?
 
@@ -43,11 +43,11 @@ Typically, we have to do a few things to our data to get everything setup and re
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YRm8Bv958gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA2
 
 We used the clip tool to ensure we don't  ____ population density in the coastal Subdivisions.
 
-### WA 
+### WA2
 
 Which projection did are choose for the feature dataset?  Why did I choose this projection?
 
