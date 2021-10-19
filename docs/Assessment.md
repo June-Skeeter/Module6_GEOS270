@@ -24,7 +24,6 @@ All quiz answers are multiple choice, numeric input, fill in the blank, etc. typ
 ### [QC1](Content_Part1.md#qc1)
 It is important to avoid using sequential color pallets or graduated symbols for _____ data because they can imply a ranking/direction, even though this type of data has no rank/direction.
 
-<!-- Qualitative -->
 
 ### [QC2](Content_Part1.md#qc2)
 Diverging color maps are great for showing deviations from a mean value. [T/F]
@@ -54,8 +53,6 @@ Supervised classification methods area always better than unsupervised because h
 
 ### [QC9](Content_Part2.md#qc9)
 The natural breaks algorithm is a(n) _______ classification method that seeks to _______ similarity within classes and _______ dissimilarity between classes.
-
-<!-- unsupervised, maximize, maximize-->
 
 ### [QC10](Content_Part2.md#qc10)
 Classification and regression trees (CART) are a _______ classification method that requires a user to provide _______ data.
@@ -90,12 +87,10 @@ In which Population Centre and Rural Area class does the the largest proportion 
 ### [QA6](Application_Part3.md#qa6)
 What proportion of BC's overall population lives in Rural Areas?   (Round to the nearest tenth)  *Hint* Sum the four classes to get the total population.
 
-<!-- 29.0 -->
 
 ### [QA7](Application_Part3.md#qa7)
 What is the median percentage of their income people in Rural areas spend on food?  (Round to the nearest tenth)
 
-<!-- 17.2 -->
 
 ---
 
