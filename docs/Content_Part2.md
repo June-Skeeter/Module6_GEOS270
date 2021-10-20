@@ -15,12 +15,14 @@ nav_order: 2
 {:toc}
 </details>
 
+
 # Classification Methods
 
 **Supervised**: User defined classes
 
 **Unsupervised**: Data defined classes
 
+Before we cover these methods, we need to talk a bit about statistics and data manipulation.
 
 ---
 
