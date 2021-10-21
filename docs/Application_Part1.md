@@ -59,9 +59,9 @@ In light of this research, the city of Port Alberni submitted an application for
 
 The city wants to know:
 
-1) How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
+1) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
 2) Which properties in the city are at risk?
-3) Which roadways are expected to be flooded or damaged in the event of a Tsunami
+3) How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
 4) Are the Tsunami Shelters sufficient?
 
 ## References
