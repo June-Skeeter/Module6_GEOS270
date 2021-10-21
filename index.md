@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Module 4
+title: Module 5
 nav_order: 1
 ---
 
-# Data Visualization and Classification
+# Stuff
 
-Now that we've covered the types of data and data models.  We're going to cover how we display data in clean and effective ways.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jUioyJ7HIrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+and things
 
 # Deliverables
 

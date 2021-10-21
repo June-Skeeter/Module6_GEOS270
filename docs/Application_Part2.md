@@ -1,48 +1,69 @@
 ---
 layout: default
-title: Data Classification
+title: Identify and Acquire Data
 parent: Application
 nav_order: 2
 ---
 
-# Data Classification
-{: .no_toc }
+# Acquire Data
+
+## Project Folder
+
+I've gotten the ball rolling for you and setup a project.  Download the [Module5 folder here]().  This project contains two layers: a DEM for the Port Alberni area and a vector layer representing the coastline.  It also contains a model that you can use identify areas at risk for Tsunami inundation.  Your task will be to incorporate data from the City of Port Alberni, the Province of British Columbia, and Statistics Canada.  Download the [PA_Data.zip]() and extract it to your Module5 folder.  This folder contains Properties.shp (properties in the city by zoning type) which you should import into the PA_Risk_Assessment_Inputs feature dataset.  This folder also contains two text files:  ZoningCodes is metadata for Properties.shp.  We don't need to worry about it for now.  Shelters.csv is a text file with the Lat/Lon coordinates of the tsunami shelters.  See the video below for instructions on how to import point data from text files so you can import the Shelters layer into the PA_Risk_Assessment_Inputs feature dataset.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KTZ5ix_O8Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### QA
+
+Why do we use a feature dataset to hold all our input layers?
+
+A) No reason
+B) So everything is neatly grouped in one folder
+C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
+D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
+
+<!-- C -->
 
 
-1. TOC
-{:toc}
+## Downloading Census Data
 
-# Defining Rural & Urban Areas
+We want to to download Dissemination Area level population data for the Port Alberni using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  We are going to download three population variables.  The video below can help guide you through the download process.
 
-Until 2010, Statistics Canada used a Rural/Urban classification scheme to describe Census unit smaller than a Province/Territory:
+* Total Population
+* Total Population 60 Years Or Over
+* Total Children Living In Households (Children At Home)
 
-**Rural**: a population density less than 400 people per square kilometer **or** a total population of less than 1,000 people.
 
-**Urban**: a unit with a population density at least 400 people per square kilometer **and** a total population of at least 1,000 people.
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="content/images/Distribution.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="content/images/Distribution.png" target="_blank">View in New Tab</a>
 
----
+## Downloading Roads Data from DataBC
 
-## A Revised Classification
+To conduct the analysis, we’ll also need a roads layer.  This data set is available for download from [DataBC](https://www.data.gov.bc.ca/).  Follow the video instructions to inspect the metadata and request a download. 
 
-Statistics Canada Now uses the Population Centre and Rural Area Classification:
+**1)** Follow the link and download the roads layer.
+* In the Search bar, type “Roads”.
+    * Select “Digital Road Atlas (DRA) - Master Partially-Attributed Roads”
+	* Whenever downloading data, it is crucial to check the metadata
+    * Check your email for the download link (this may take a few minutes).
+**2)** Download the data and add it to your PA_Data folder in your PA_RiskAssesment project.
+* The layer name isn't very descriptive.  Name it PA_Roads
 
-|**Rural**         |**Small population centers**            |**Medium population centers**                                            |**Large urban population centers**        |
-|------------------|----------------------------------------|-------------------------------------------------------------------------|------------------------------------------|
-|Same as old method|Not Rural **and**<br>Population < 30,000|Not Rural **and**<br>Population >= 30,000 **and**<br>Population < 100,000|Not Rural **and**<br>Population >= 100,000|
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### WA3
+**3)** Extract the .zip files from DataBC and import them into your PA_Risk_Assessment feature dataset
+* The file names from DataBC aren't very descriptive, it might be helpful to change rename them "Roads" and "Coastline".
 
-Skim the Introduction of the [Documentation](https://www.statcan.gc.ca/eng/subjects/standard/pcrac/2016/introduction) explaining the classification scheme.  What was the reasoning behind updating from the old Rural/Urban method?
-
----
-
-# How to Apply the Classification
-
-In this video I show you how to apply the old Urban/Rural Classification to the census subdivisions in BC.  You **do not** need to apply this classification scheme. This video serves as a guide, after watching it, apply the Population Centre and Rural Area Classification to the census subdivisions on your own.  The table above hints at how to format your SQL statements.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uMLtpB6Xjqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### QA3
-
-The Select by Attribute tool lets us use SQL (Structured Query Language) to define expressions for querying vector data. [T/F]
-
+<img src="Roads.png" alt="hi" class="inline"/>
