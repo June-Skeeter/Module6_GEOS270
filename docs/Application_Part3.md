@@ -65,48 +65,55 @@ To answer **1**{: .label .label-red } all we need to do is clip the roads by the
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F_AslIjacNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### QA
+
+How many **km** of roads are at risk?  Rounded to the nearest tenth km is fine.  *Hint* Open the attribute, of PA_Roads_Flood, click right Click Shape_Length >> Statistics to find the sum.
+
+<!-- 49.6 km -->
+
+
 ## Select Properties by Location
 
 To answer **2**{: .label .labe-red} we can use select by location.  See the video below for an explanation of the select by location and instructions on how to apply it in your model.  Name the result Properties_at_Risk.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vqHmErK5J-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Create a bar chart of properties by ZoneName.  *Hint* If you check label bars, and sort by the y-axis, it can make your chart easier to interpret.
+
+<img src='content/images/bar_format.png' width='300'>
+
+### QA
+
+How many residential properties are are at risk?  
+
+### QA
+
+How many multi-family residential properties are are at risk?  
+
+<!-- 49.6 km -->
+
+## Select Properties by ZoneName and Intersect Population Data
+
+To answer **3**{: .label .labe-red}, the process is a bit more complicated.  If we simply clip the DAs by the Inundation Zone, we'll end up with a significant overestimate.  Its best to overestimate when doing hazards analysis if you can't avoid it, but we need our results to be realistic.  We will use three steps to estimate the *maximum* number of people who may be displaced.  
+
+**A**{: .label .labe-red} Select just residential and multi-family residential properties.
+
+**B**{: .label .labe-red} Intersect Population_Data with the Selection.
+
+**C**{: .label .labe-red} Dissolve the Intersection.
 
 
+### QA
 
-## Question 7)
-What is your estimate for the maximum population at risk?  The Population column is listed as Value0 in the attribute table.  *Hint:* Look at the statistics for the column to quickly calculate the sum.  **Note** because of the complexity of this lab, for the numeric answers, I will determine a margin of error based on everyone's answers and give partial credit.  For now the margins have been set to zero, but that will change when we mark the lab.
+What is our estimate of Pop_at_Risk?
 
-<!-- 8,820 -->
+<!-- 1444 -->
 
-## Question 8)
-Why is the result intersecting the Population_DA_Clip within InundationZone most likely an over esitimate?  Hint: Think about what’s going on with the intersect.  Compare the input with the resulting Population_at_Risk layer. 
+## Select Shelters by Location
 
-<!-- Because were counting all ppl in any DA that even just a has a sliver in the inundation zone -->
+To answer **4**{: .label .labe-red}, we can use select by location again.  A shelter is only viable if its more than 150 meters away from the inundation zone.  Follow the video below to get setup.
 
-## Question 9)
-What is the difference between the clip tool and the intersect tool?  You can refer to the lecture video on [vector overlay analysis](https://www.youtube.com/watch?v=jkjVX97Xtcc) and compare the outputs from your intersect (InundationZone) with the outputs from the clips (eg. Population_at_Risk).  *Hint* Look at the attribute tables of the input and output layers.
 
-<!-- Clip is like cookie cutter (just cuts away areas), intersect keeps where two layers overlap &&& combines attributes  -->
+### QA
 
-## Buffer the Tsunami Warning Sirens and Erase with At Risk Properties
-
-We need to buffer the Sirens layer by 1000m and erase that buffer from the Properties_at_Risk to see if there are any properties that are not adequately served by the tsunami warning sirens.  See the docs for the [erase tool](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/erase.htm)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/af2Re9qoVCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Select the Residential Properties at Risk
-
-Use the ZoningCode.csv file you were given to label identify the zone code for residential and multi-family residential.  Search for Select by Attribute in the geoprocessing pane and to your model, to identify the residential properties at risk.  *Hint* Make sure to select for both residential types (Multi family/Single family) using the OR operator.
-
-<img src="Selection.png" alt="hi" class="inline"/>
-
-## Question 10)
-Why are we using the OR operator if we want both multi AND single family residential properties?
-
-<!-- and is only for selecting for conditions between columns, because a property can only have one zone value.  it can be single and multi family  Or can be used within.   -->
-
-## Question 11)
-How many residential properties are at risk of Inundation?
-
-<!-- 690 -->
+Are all the shelters in acceptable locations?

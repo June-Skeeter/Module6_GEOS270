@@ -6,49 +6,43 @@ nav_order: 4
 ---
 
 # Last Minute Changes
+{: .no_toc }
 
-## Refining the Population at Risk Estimate
-You’re taking a coffee break and you run into a colleague. They ask what you’ve been working on. You tell them about your project, and how your a bit troubled about your Population_at_Risk estimate. You’re concerned it wayyy to high, and the city won’t listen to your recommendations because you’re including any DA that even has a sliver in the Inundation_Zone.
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-Your college suggests one last step: “If you clip the Population_at_Risk layer by the residential properties Properties a Risk layer, you’ll ensure that you’re only including DAs that are in the Inundation Zone and contain properties that are at risk!”
+# New Wave Estimates
 
-You think … hmm … Its not the perfect solution. But it will work. It will still be an over estimate (which is better than an under estimate in this case), but it will do.
+Just as you’re getting ready to make your maps, and write your report, a colleague  tells you about a new modeling study that was just published suggests that peak wave height could be up to 15 meters and the wave could reach 1250m inland rather than 1000m.  Update your raster reclassification values and the waterbodies buffer distance to reflect this new information and rerun your model to update your analysis!  You can use the video below as a guide.
 
-Add a select by attribute (select for the residential zone codes) the clip to your model, then run it again.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NgDIcFu52xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Updated Projections
-Just as you’re getting ready to make your maps, and write your report, you get a message on Slack from a colleague.  She tells you about a new modeling study that was just published suggests that peak wave height could be up to 15 meters and the wave could reach 1250m inland rather than 1000m.  Update your raster reclassification values and the coastline buffer distance to reflect this new information and rerun your model to update your analysis!
+### QA
 
-## Question 12)
-What is the total shape_area of your InundationZone layer?
+How many **km** of roadways are at risk of flooding?
 
-<!-- 16,219,855.5 -->
+<!-- 70.6 -->
 
-## Question 13)
-This isn't the total area within the MunicipalBoundary that is at risk however.  Why?  What would you need do to figure out the total area within the MunicipalBoundary at risk?
+### QA
 
-<!-- Clip the inundation zone by the municipal boundary (not the buffered boundary!) -->
+How many properties (of any kind) are at risk of flooding?
 
-## Summarize Statistics for Your Report
+<!-- 1413 -->
 
-Watch the video for pointers on summary tables.
+### QA
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C--8LGmxe08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+How many people are potentially at risk of displacement?
 
+<!-- 2038 -->
 
-## Question 14)
-How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
+### QA
 
-<!-- 6,474 -->
+How many shelters are in suitable locations?
 
-## Question 15)
-How many residential properties are at risk?
-
-<!-- 971 residential -->
-
-## Question 16)
-How many kilometers of arterial roadways are at risk for flooding?
-
-<!-- 8.43238108989368 -->
-<!-- 
-I will determine a margin of error based on everyone's answers and give partial credit.  For now the margins have been set to zero, but that will change when we mark the lab. -->
+<!-- 2 -->
