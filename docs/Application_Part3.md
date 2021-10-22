@@ -102,6 +102,7 @@ To answer **3**{: .label .labe-red}, the process is a bit more complicated.  If 
 
 **C**{: .label .labe-red} Dissolve the Intersection.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rQz8SWEXxrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### QA
 
@@ -113,6 +114,7 @@ What is our estimate of Pop_at_Risk?
 
 To answer **4**{: .label .labe-red}, we can use select by location again.  A shelter is only viable if its more than 150 meters away from the inundation zone.  Follow the video below to get setup.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4feRTYwJj7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### QA
 

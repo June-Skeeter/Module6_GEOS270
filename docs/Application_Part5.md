@@ -43,14 +43,14 @@ Create a map showing the the Inundation Zone, roads at risk of flooding, propert
 
 ## Report
 
-Write a brief (1-2 page) report for the City of Port Alberin.  The report needs explicity answer the four questions questions:
+Write a brief (1 page) report for the City of Port Alberin.  The report needs explicity answer the four questions questions:
 
 **1**{: .label .label-red } Which roads are at risk of flooding or damage?
 **2**{: .label .label-red } Which properties in the city are at risk?
 **3**{: .label .label-red } How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
 **4**{: .label .label-red } Are the Tsunami Shelters sufficient?
 
-You should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment and explain your findings.  Reference your model, charts, and map where applicable and also reference statistics where necessary.
+You should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment and explain your findings referring to your charts, map, statistics where necessary.
 
 
 
