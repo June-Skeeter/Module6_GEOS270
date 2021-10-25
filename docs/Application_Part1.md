@@ -21,7 +21,7 @@ nav_order: 1
 
 Just off of the West Coast of Vancouver Island, is the [Cascadia Subduction Zone (CSZ)](https://en.wikipedia.org/wiki/Cascadia_subduction_zone). Until recently, the common scientific theory was that the CSZ was incapable of producing megathrust earthquakes and their associated Tsunami’s because “no sizable earthquake has occurred on it since European settlement began” (Ludwin et al. 2005).
 
-<img src="CSZ.png" alt="hi" class="inline"/>
+<img src="content/images/CSZ.png" alt="hi" class="inline"/>
 
 Despite the scientific communities’ assumptions that the CSZ was not a threat, knowledge of the destructive potential of the CSZ was preserved in the oral histories of coastal indigenous peoples from British Columbia to Northern California.  There are numerous histories describing a massive earthquake and tsunami that occurred sometime around 1700.  These histories were transcribed between 1860 and 1964.  Read the highlighted sections of Ludwin et al. (2005), which can be found [here](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/Readings/LudwinEtAl.pdf)
 
@@ -41,14 +41,14 @@ On March 28th, 1964 a megathrust earthquake (9.2 magnitude on the Richter scale)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZrH3Zw61z40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## QA1
+### QA1
 
 The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
 
 <!-- 2.4 -->
 
 
-## WA2
+### WA2
 Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
 
 <!-- The whole village was destroyed.  Only ppl up high on the hill survived.  The bay has a shorter but similar shape to the alberni inlet.  An equivalent earthquake would be VERY bad. -->
@@ -59,10 +59,14 @@ In light of this research, the city of Port Alberni submitted an application for
 
 The city wants to know:
 
-1) Which roadways are expected to be flooded or damaged in the event of a Tsunami?
-2) Which properties in the city are at risk?
-3) How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
-4) Are the Tsunami Shelters sufficient?
+**1**{: .label .label-red } Which roads are at risk of flooding or damage?
+
+**2**{: .label .label-red } Which properties in the city are at risk?
+
+**3**{: .label .label-red } How many people in Port Alberni are potentially living in areas at risk?
+
+**4**{: .label .label-red } Are the Tsunami Shelters sufficient?
+
 
 ## References
 

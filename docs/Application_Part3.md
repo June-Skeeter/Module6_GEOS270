@@ -22,10 +22,14 @@ nav_order: 3
 
 We’re going to use a tool called Model Builder to organize and save all of our analysis steps in one place.  When we use model builder, if any of our inputs or parameters change, a model can be easily adjusted and rerun at any time.  It also allows us to visualize our analysis process.  This is useful both for editing our own work and sharing it with others.  For a more detailed explanation of Model Builder, check out [this link](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/modelbuilder/modelbuilder-quick-tour.htm).
 
-### QA
-Why are we using model builder for this analysis?
+### QA3
 
-<!-- 1) Repeatable 2) changeable 3) Visualize process 4) share workflow -->
+Why are we using model builder for this analysis?  Select all that apply
+
+* Your analysis is easily repeatable when using model builder
+* You can share your easily update your analysis
+* You can share your visualize your workflow
+* You can share your workflow
 
 
 # Identify the Inundation Zone
@@ -46,17 +50,17 @@ I have set up a model to handle the above tasks for you.  Watch the video below 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/evyXxnqUKbg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
-
-What is the shape area of the Inundation_Zone?
 
 # Create Your Own Model
 
 We need to figure out:
 
 **1**{: .label .label-red } Which roads are at risk of flooding or damage?
+
 **2**{: .label .label-red } Which properties in the city are at risk?
+
 **3**{: .label .label-red } How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
+
 **4**{: .label .label-red } Are the Tsunami Shelters sufficient?
 
 ## Clip the Roads Layer
@@ -65,7 +69,7 @@ To answer **1**{: .label .label-red } all we need to do is clip the roads by the
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F_AslIjacNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA4
 
 How many **km** of roads are at risk?  Rounded to the nearest tenth km is fine.  *Hint* Open the attribute, of PA_Roads_Flood, click right Click Shape_Length >> Statistics to find the sum.
 
@@ -82,15 +86,10 @@ Create a bar chart of properties by ZoneName.  *Hint* If you check label bars, a
 
 <img src='content/images/bar_format.png' width='300'>
 
-### QA
+### QA5
 
-How many residential properties are are at risk?  
+How many residential properties (single and multi-family combined) are are at risk?  
 
-### QA
-
-How many multi-family residential properties are are at risk?  
-
-<!-- 49.6 km -->
 
 ## Select Properties by ZoneName and Intersect Population Data
 
@@ -104,7 +103,7 @@ To answer **3**{: .label .labe-red}, the process is a bit more complicated.  If 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rQz8SWEXxrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA6
 
 What is our estimate of Pop_at_Risk?
 
@@ -115,7 +114,3 @@ What is our estimate of Pop_at_Risk?
 To answer **4**{: .label .labe-red}, we can use select by location again.  A shelter is only viable if its more than 150 meters away from the inundation zone.  Follow the video below to get setup.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4feRTYwJj7g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### QA
-
-Are all the shelters in acceptable locations?

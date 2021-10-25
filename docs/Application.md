@@ -16,6 +16,7 @@ nav_order: 3
 
 ## Research Question
 
+How would a catastrophic tsunami potentially impact Port Alberni?
 
 ## Download the Project
 
@@ -25,6 +26,11 @@ I've set up a project for you.  You can download it [here](https://github.com/Ju
 
 
 
+**1**{: .label} Identify at risk areas based on elevation and distance from coast.
+
+**2**{: .label} Overlay vector layers to highlight features at risk.
+
+**3**{: .label} Visualize and analyze the results.
 
 
 

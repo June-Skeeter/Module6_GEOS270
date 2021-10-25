@@ -23,25 +23,25 @@ Just as you’re getting ready to make your maps, and write your report, a colle
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NgDIcFu52xk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### QA
+### QA7
 
 How many **km** of roadways are at risk of flooding?
 
 <!-- 70.6 -->
 
-### QA
+### QA8
 
 How many properties (of any kind) are at risk of flooding?
 
 <!-- 1413 -->
 
-### QA
+### QA9
 
 How many people are potentially at risk of displacement?
 
 <!-- 2038 -->
 
-### QA
+### QA10
 
 How many shelters are in suitable locations?
 
