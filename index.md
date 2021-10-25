@@ -4,9 +4,9 @@ title: Module 5
 nav_order: 1
 ---
 
-# Stuff
+# Spatial Analysis & GIS Workflows      
 
-and things
+This module will spatial analysis methods.  We can overlay spatial layers to create new information and make spatial inferences.
 
 # Deliverables
 

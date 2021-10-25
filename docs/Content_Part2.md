@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Content
+title: Spatial Inference
+parent: Content
 has_children: True
 nav_order: 2
 ---

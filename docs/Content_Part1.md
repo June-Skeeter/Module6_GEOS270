@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Content
+title: Spatial Overlay
+parent: Content
 has_children: True
-nav_order: 2
+nav_order: 1
 ---
 
 # Spatial Analysis Methods
