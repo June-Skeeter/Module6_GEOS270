@@ -8,6 +8,17 @@ nav_order: 2
 # Spatial Analysis & Inference
 {: .no_toc }
 
+Topics Covered:
+
+**Spatial Analysis**: Combining multiple pieces of spatial information to generate new information
+
+**Spatial Inference**: Using spatial information and relationships to draw conclusions
+
+**Spatial Sampling**: Exploiting Tobler's First Law of Geography to collect representative samples.
+
+**Guest Speaker**: Wednesday Nov 3rd!
+
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -16,13 +27,6 @@ nav_order: 2
 1. TOC
 {:toc}
 </details>
-
-**Spatial Analysis**: Combining multiple pieces of spatial information to generate new information
-
-**Spatial Inference**: Using spatial information and relationships to draw conclusions
-
-**Spatial Sampling**: Exploiting Tobler's First Law of Geography to collect representative samples.
-
 ---
 
 # Content Questions

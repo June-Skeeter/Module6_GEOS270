@@ -14,12 +14,54 @@ You can use the course Canvas page to complete the quiz, written submission, and
 
 ---
 
-# Module Quiz 
+# Module Quiz (25pts)
 
 All quiz answers are multiple choice, numeric input, fill in the blank, etc. type questions.  They can be submitted via the Module 1 Quiz that can be found on the Canvas page.  You will have unlimited attempts to take the quiz.
 
 
 ## Content
+
+
+[**QC1**](Content.md#qc1)
+
+The [Clip/Intersect/Union] tool can be used to identify the areas of two or more [vector/raster] layers that overlap *and* combine all attributes to create a new layer.
+
+[**QC2**](Content.md#qc2)
+
+The [Clip/Intersect/Union] tool can be used to combine all attributes of two or more [vector/raster] layers and create a new layer.  This tool will include non-overlapping area in the output.
+
+
+[**QC3**](Content.md#qc3)
+
+The [Clip/Intersect/Union] tool can be used like a cookie cutter.  It cuts away the portions of an input that do not overlap the clip layer but does not merge attributes.
+
+[**QC4**](Content.md#qc4)
+
+The [Weighted Overlay/Slope/Union/Zonal Statistics] tool can be used to conduct suitability or risk analysis.  Multiple [raster/vector] layers are overlaid to 
+
+[**QC5**](Content.md#qc5)
+
+The [Raster Calculator/Weighted Overlay/Union/Zonal Statistics] tool can also be used to conduct suitability or risk analysis, but it is a more general tool that allows you to define algebraic expressions using raster layers.
+
+[**QC6**](Content.md#qc6)
+
+The [Raster Calculator/Weighted Overlay/Union/Zonal Statistics] tool can also be used to conduct suitability or risk analysis, but it is a more general tool that allows you to define algebraic expressions using raster layers.
+
+[**QC7**](Content.md#qc7)
+
+Stratified random sampling is a(n) [biased/unbiased] sampling method that seeks to draw a more representative sample than pure random sampling.
+
+[**QC8**](Content.md#qc8)
+
+Spatial [autocorrelation/interpolation/overlay] effects the results we get when sampling spatial data. It is important to think through the impacts when we are sampling spatial data.
+
+[**QC9**](Content.md#qc9)
+
+Spatial [Interpolation/Overlay/Sampling] is a process used to "read between the lines" or infer what values are between locations where we have measurements.
+
+[**C10**](QContent.md#qc0)
+
+Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds digital tools that provide refugees and immigrants crucial knowledge to take charge of their migration journeys.  Peace Geeks developed an app called ______ to help newcomers to British Columbia and Manitoba find information and connect with free services.
 
 ---
 
@@ -29,7 +71,6 @@ All quiz answers are multiple choice, numeric input, fill in the blank, etc. typ
 
 The maximum wave height recorded at Tofino was only ____ meters.  Despite this, wave heights exceeded 8 meters in Port Alberni.  
 
-<!-- 2.4 -->
 
 [**QA2**](Application_Part2.md#qa2)
 
@@ -40,7 +81,6 @@ B) So everything is neatly grouped in one folder
 C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
 D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
 
-<!-- C -->
 
 [**QA3**](Application_Part3.md#qa3)
 
@@ -57,8 +97,6 @@ Why are we using model builder for this analysis?  Select all that apply
 
 How many **km** of roads are at risk?  Rounded to the nearest tenth km is fine.  *Hint* Open the attribute, of PA_Roads_Flood, click right Click Shape_Length >> Statistics to find the sum.
 
-<!-- 49.6 km -->
-
 
 [**QA5**](Application_Part3.md#qa5)
 
@@ -69,59 +107,54 @@ How many residential properties (single and multi-family combined) are are at ri
 
 What is our estimate of Pop_at_Risk?
 
-<!-- 1444 -->
-
 
 [**QA7**](Application_Part4.md#qa7)
 
 How many **km** of roadways are at risk of flooding?
 
-<!-- 70.6 -->
 
 [**QA8**](Application_Part4.md#qa8)
 
 How many properties (of any kind) are at risk of flooding?
 
-<!-- 1413 -->
+
 
 [**QA9**](Application_Part4.md#qa9)
 
 How many people are potentially at risk of displacement?
 
-<!-- 2038 -->
 
 [**QA10**](Application_Part4.md#qa10)
 
 How many shelters are in suitable locations?
 
-<!-- 2 -->
 
 ---
 
-# Module Assignment 
+# Module Assignment (75pts)
 
 All written answers should be numbered and record in one document, saved as a .pdf, and uploaded to canvas.  The file submissions should also be saved as .pdf and uploaded as a separate document.  **Written answers can be as brief as you want as long as they answer the question.**
 
 
 ## Content
 
+No written questions for lecture content this module.
+
 ---
 
-## Application
+## Application (40pts)
 
-[**WA1**](Application_Part1.md#wa1)
+[**WA1**](Application_Part1.md#wa1) - 10pts
 
 What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge in when it comes to understanding our world? 
 
-<!-- The sciences have tended to have a bias against and non-white/colonial/male knowledge/sources -->
 
-[**WA2**](Application_Part1.md#wa2)
+[**WA2**](Application_Part1.md#wa2) - 10pts
 
 Look back at Ludwin et al. 2005, specifically at the story of Pachena Bay (bottom pg 142 to top of pg 143).  You can find a [full transcription here](https://pnsn.org/outreach/native-american-stories/other-stories/the-tsunami-at-anaqtl-a-or-pachena-bay).  Find Pachena Bay on google maps.  Where is it relative to Port Alberni?  What can you infer from this story about how a megathrust earthquake occurring just off of the coast of Vancouver Island would impact Port Alberni? 
 
-<!-- The whole village was destroyed.  Only ppl up high on the hill survived.  The bay has a shorter but similar shape to the alberni inlet.  An equivalent earthquake would be VERY bad. -->
 
-[**WA3**](Application_Part5.md#wa3)
+[**WA3**](Application_Part5.md#wa3) - 20pts
 
 
 Write a brief (1 page) report for the City of Port Alberin.  The report needs explicity answer the four questions questions:
@@ -137,22 +170,20 @@ Write a brief (1 page) report for the City of Port Alberin.  The report needs ex
 
 You should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment and explain your findings referring to your charts, map, statistics where necessary.
 
-<!-- Needs to explain results & answer each question (see above^) (10 pts - 2 each) + introduction/summary of problem (5pts) + explain steps (5pts)-->
-
 ---
 
-## File Submissions
+## File Submissions (35 pts)
 
 
-[**FA1**](Application_Part5.md#fa1)
+[**FA1**](Application_Part5.md#fa1) - 5pts
 
 Upload your model to canvas.
 
-[**FA2**](Application_Part5.md#fa2)
+[**FA2**](Application_Part5.md#fa2) - 10pts
 
 Upload your Charts to canvas.
 
-[**FA3**](Application_Part5.md#fa3)
+[**FA3**](Application_Part5.md#fa3) - 20pts
 
 Upload your Map to canvas.
 
