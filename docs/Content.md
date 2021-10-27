@@ -46,7 +46,7 @@ The [Clip/Intersect/Union] tool can be used like a cookie cutter.  It cuts away 
 
 ### QC4
 
-The [Weighted Overlay/Slope/Union/Zonal Statistics] tool can be used to conduct suitability or risk analysis.  Multiple [raster/vector] layers are overlaid to 
+The [Weighted Overlay/Slope/Union/Zonal Statistics] tool can be used to conduct suitability or risk analysis.  Multiple [raster/vector] layers are overlaid to generate a suitability or risk classification map.
 
 ### QC5
 
@@ -54,7 +54,7 @@ The [Raster Calculator/Weighted Overlay/Union/Zonal Statistics] tool can also be
 
 ### QC6
 
-The [Raster Calculator/Weighted Overlay/Union/Zonal Statistics] tool can also be used to conduct suitability or risk analysis, but it is a more general tool that allows you to define algebraic expressions using raster layers.
+The [Slope/Aspect/Reclassify] tool can also be used to calculate the compass direction that a hillside is facing.
 
 ### QC7
 

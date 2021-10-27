@@ -25,7 +25,7 @@ Just as you’re getting ready to make your maps, and write your report, a colle
 
 ### QA7
 
-How many **km** of roadways are at risk of flooding?
+How many **km** of roadways are at risk of flooding? Rounded to the nearest tenth km is fine.  
 
 <!-- 70.6 -->
 
