@@ -45,8 +45,7 @@ D) To ensure all our vector and raster data is in the same projection, the featu
 We want to to download Dissemination Area level population data for the Port Alberni using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  We are going to download three population variables:
 
 * Total Population
-* Total Population 60 Years Or Over
-* Total Children Living In Households (Children At Home)
+* Total Households
 
 The video below can help guide you through the download process. 
 
