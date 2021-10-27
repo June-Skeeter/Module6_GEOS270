@@ -57,9 +57,10 @@ Write a brief (1 page) report for the City of Port Alberin.  The report needs ex
 
 **2**{: .label .label-red } Which properties in the city are at risk?
 
-**3**{: .label .label-red } How many people within Port Alberni and the surrounding area are potentially living in areas at risk?
+**3**{: .label .label-red } How many people in Port Alberni are potentially living in areas at risk?
 
 **4**{: .label .label-red } Are the Tsunami Shelters sufficient?
+
 
 You should briefly summarize the analysis steps you used to conduct the Tsunami Risk Assessment and explain your findings referring to your charts, map, statistics where necessary.
 

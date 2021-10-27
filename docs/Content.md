@@ -70,4 +70,4 @@ Spatial [Interpolation/Overlay/Sampling] is a process used to "read between the 
 
 ### QC10
 
-Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds digital tools to strengthen communities in the pursuit of peace.  Peace Geeks is developing an app called ______ to help newcomers to BC find information and connect with services .
+Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds digital tools that provide refugees and immigrants crucial knowledge to take charge of their migration journeys.  Peace Geeks developed an app called ______ to help newcomers to British Columbia and Manitoba find information and connect with free services.
