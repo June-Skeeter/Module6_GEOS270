@@ -61,5 +61,5 @@ To conduct the analysis, we’ll also need a roads layer.  This data set is avai
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-You will be emailed a link to download the data.  Extract the file to your Modlue5 project then import the PA_Data folder in your PA_RiskAssesment project.  Name it PA_Roads.
+You will be emailed a link to download the data.  Extract the file to your Modlue5 project then import the data into your PA_RiskAssesment_Inputs feature dataset.  Name it PA_Roads.
 
