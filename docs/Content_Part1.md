@@ -25,13 +25,19 @@ Spatial analysis methods are central to the effective application of GIS.
 ## Overlay
 
 - [Clip](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/clip.htm)
+	- Like a "cookie cutter", cuts one layer down to size by another
 - [Intersect](https://desktop.arcgis.com/en/arcmap/latest/tools/analysis-toolbox/intersect.htm)
+	- Similar to clip **but** merges attributes and splits polygons by intersection.  Can be used to overlay **two or more** layers at once.
 - [Identity](https://desktop.arcgis.com/en/arcmap/latest/tools/analysis-toolbox/identity.htm)
+	- Similar to intersect - merges attributes and splits polygons by intersection **but**: Can only overlay **two** layers, maintains all areas of **Input** layer and **only** the overlapping portions of **Identity** feature.
 - [Union](https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/union.htm)
+	- Similar to identity **but** maintains all areas of **all** input layers.  Can be used to overlay **two or more** layers at once.
 - [Erase](https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/erase.htm)
+	- The "opposite" of clip, removes areas of one feature that overlap another.
 - [Symmetric Difference](https://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/symmetrical-difference.htm)
+	- Similar to erase **but** keeps all non-overlapping areas of both features.
 - [Spatial Join](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/spatial-join.htm)
-	- Combine attributes, without 
+	- Combines attributes, without altering geometry.
 
 ## Proximity Analysis
 

@@ -63,3 +63,7 @@ Spatial [autocorrelation/interpolation/overlay] effects the results we get when 
 ### QC9
 
 Spatial [Interpolation/Overlay/Sampling] is a process used to "read between the lines" or infer what values are between locations where we have measurements.
+
+### QC10
+
+Our guest speaker Alysha is the ______ for Peace Geeks, a non-profit that builds digital tools to strengthen communities in the pursuit of peace.  Peace Geeks is developing an app called ______ to help newcomers to BC find information and connect with services .
