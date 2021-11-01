@@ -9,6 +9,16 @@ nav_order: 2
 # Spatial Sampling and Inference
 {: .no_toc }
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+---
+
 Spatial sampling is the way we collect data to to bring it into a GIS in the first place.  It is essential to take representative samples, so that we can adequately represent the phenomena we wish to understand.
 
 # Conceptual Background
