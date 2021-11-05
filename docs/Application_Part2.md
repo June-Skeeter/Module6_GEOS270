@@ -51,9 +51,7 @@ The video below can help guide you through the download process.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe6xiF22kRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Once you have downloaded the data, extract it to your Module5 folder.  Import the Simply Analyticis shapefile into the PA_Risk_Assessment_Inputs feature dataset.  Name it Population_Data and **make sure** to set the field names following the same procedure as in Module4, reference the variables_names.txt file for the list of variable names.  I've given them the following names:
-
-<img src="content/images/Names.png" width=300>
+Once you have downloaded the data, extract it to your Module5 folder.  Import the Simply Analyticis shapefile into the PA_Risk_Assessment_Inputs feature dataset.  Name it Population_Data and **make sure** to set the field names following the same procedure as in Module4, reference the variables_names.txt file for the list of variable names.
 
 # Downloading Roads Data from DataBC
 
