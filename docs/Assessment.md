@@ -152,7 +152,7 @@ No written questions for lecture content this module.
 
 [**WA1**](Application_Part1.md#wa1) - 10pts
 
-What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge in when it comes to understanding our world? 
+What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge when it comes to understanding our world? 
 
 
 [**WA2**](Application_Part1.md#wa2) - 5pts

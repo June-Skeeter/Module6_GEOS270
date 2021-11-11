@@ -31,7 +31,7 @@ This example highlights both the arrogance of the scientific community and the l
 
 ### WA1
 
-What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge in when it comes to understanding our world? 
+What does the example presented in Ludwin et al. 2005 say about the value that the sciences have historically attributed to traditional knowledge when it comes to understanding our world? 
 
 <!-- The sciences have tended to have a bias against and non-white/colonial/male knowledge/sources -->
 
