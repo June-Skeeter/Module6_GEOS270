@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Acquire Data
+title: Geocoding and Web Mapping
 parent: Application
 nav_order: 2
 ---
 
-# Acquire Data
+# Geocoding and Web Mapping
 {: .no_toc }
 
 <details open markdown="block">
@@ -17,47 +17,41 @@ nav_order: 2
 {:toc}
 </details>
 
+# Geocoding
 
-# Project Folder
-
-I've gotten the ball rolling for you and setup a project.  Download the [Module5 folder here](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/Module5.zip).  This project contains two layers: a DEM for the Port Alberni area and a vector layer representing the coastline.  It also contains a model that you can use identify areas at risk for Tsunami inundation.  Your task will be to incorporate data from the City of Port Alberni, the Province of British Columbia, and Statistics Canada.
-
-# Port Alberni Data
-
-Download the [PA_Data.zip](https://github.com/June-Skeeter/Module5_GEOS270/blob/main/data/PA_Data.zip) and extract it to your Module5 folder.  This folder contains Properties.shp (properties in the city by zoning type) which you should import into the PA_Risk_Assessment_Inputs feature dataset.  This folder also contains two text files:  ZoningCodes is metadata for Properties.shp.  We don't need to worry about it for now.  Shelters.csv is a text file with the Lat/Lon coordinates of the tsunami shelters.  See the video below for instructions on how to import point data from text files so you can import the Shelters layer into the PA_Risk_Assessment_Inputs feature dataset.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KTZ5ix_O8Wo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-### QA2
-
-Why do we use a feature dataset to hold all our input layers?
-
-A) No reason
-B) So everything is neatly grouped in one folder
-C) To ensure all our vector data is in the same projection, the feature dataset will automatically re-project our vector data when importing
-D) To ensure all our vector and raster data is in the same projection, the feature dataset will automatically re-project our vector and raster data when importing
-
-<!-- C -->
+The process of attributing coordinates (Latitude/Longitude) to descriptive locations (Street Address).  We can use a variety of web based services (google maps, ESRI, mapbox, open street map, etc.) to perform geocoding.  We're using Mapbox today because it strikes a good balance between accessibiliyt and accuracy.  
 
 
-# Downloading Census Data
+## Google Maps
 
-We want to to download Dissemination Area level population data for the Port Alberni using [Simply Analytics](https://resources.library.ubc.ca/page.php?id=1044).  We are going to download three population variables:
+* Arguably the best geocoding service, but it costs money :/ [5.00 USD per 1000 request](https://developers.google.com/maps/documentation/geocoding/overview).
 
-* Total Population
-* Total Households
+## ArcGIS World Geocoder
 
-The video below can help guide you through the download process. 
+* You can geocode right in [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/help/data/geocoding/tutorial-geocode-a-table-of-addresses.htm).  Feel free to give it a shot on your own time if you want.  The reason we are **not** using it today: ESRI geodocing services uses a [credit](https://www.esri.com/en-us/arcgis/products/credits/overview?rsource=%2Fsoftware%2Farcgis%2Farcgisonline%2Fcredits) based system for geocidng.  As a student, you get 1,000 credits, which is easy to go through quickly.  You can get more if you request them from Jose, but its inconvenient.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pe6xiF22kRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Open Street Maps
 
-Once you have downloaded the data, extract it to your Module5 folder.  Import the Simply Analyticis shapefile into the PA_Risk_Assessment_Inputs feature dataset.  Name it Population_Data and **make sure** to set the field names following the same procedure as in Module4, reference the variables_names.txt file for the list of variable names.
+* [Open Street Maps](https://osmnames.org/) is a volunteer based platform that offers free geocoding and webmaps.  But the geocoding is somewhat error prone at times.
 
-# Downloading Roads Data from DataBC
+## Mapbox
 
-To conduct the analysis, we’ll also need a roads layer.  This data set is available for download from [DataBC](https://www.data.gov.bc.ca/).  Follow the video instructions to download the roads layers.
+* A "freemium" service up to [100,000 requests per month](https://www.mapbox.com/pricing/#geocode) and gives fairly reliable results.  This is what we are using today.  It requires you to create a free [Mapbox](https://mapbox.com) account.  Once you have an account, you will be given an [access token](https://account.mapbox.com/access-tokens/).  Which lets you use the mapbox service.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5jaULGb5ux4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+We will be using a Python module called [geopy](https://geopy.readthedocs.io/en/stable/) to interface with Mapbox for us.
 
-You will be emailed a link to download the data.  Extract the file to your Modlue5 project then import the data into your PA_RiskAssesment_Inputs feature dataset.  Name it PA_Roads.
+# Web Mapping
 
+Web mapping takes cartography beyond static maps.  You can create 
+
+
+Today, we'll use a Python package called [follium]http://python-visualization.github.io/folium/ which allows us to create dynamic, interactive webmaps that can be embedded in webpages.  Folium will "translate" our python commands into Javascrpt and create [leaflet](https://leafletjs.com/) maps.  Leaflet is a javascript   Follium is already installed, so we don't have any more steps to do here!
+
+# Getting Started with Geocoding
+
+You can close the terminal window, we don't need it anymore.  Go back to your Jupyter Notebook window.
+* Double click on "Geocoding and Webmapping.ipynb" to open it.
+
+# Web Mapping
+
+Web mapping takes cartography beyond static maps.  ESRI has a platform aslled [ArcGIS Online](https://www.arcgis.com/index.html).  If you're interested in learning about it, my colleage Maya at the UBC Library Research Commons has created this [workshop](https://ubc-library-rc.github.io/intro-AGOL/).  You can look through this page, or take it live with her next semester!  Today, we'll use a Python package called [follium]http://python-visualization.github.io/folium/ which allows us to create dynamic, interactive webmaps that can be embedded in webpages.  Folium will "translate" our python commands into Javascrpt and create [leaflet](https://leafletjs.com/) maps.
