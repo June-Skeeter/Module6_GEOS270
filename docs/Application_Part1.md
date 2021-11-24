@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Geocoding and Web Mapping
+title: Getting Setup
 parent: Application
 nav_order: 1
 ---
 
-# Geocoding and Web Mapping
+# Getting Setup
 {: .no_toc }
+
+This section provides an explanation of how to get things set up.
 
 <details open markdown="block">
   <summary>
@@ -17,41 +19,46 @@ nav_order: 1
 {:toc}
 </details>
 
-# Geocoding
 
-The process of attributing coordinates (Latitude/Longitude) to descriptive locations (Street Address).  We can use a variety of web based services (google maps, ESRI, mapbox, open street map, etc.) to perform geocoding.  We're using Mapbox today because it strikes a good balance between accessibiliyt and accuracy.  
+# Download the Code and Data
 
+**1**{: .label .label-red } **Start a Jupyter Lab**
 
-## Google Maps
-
-* Arguably the best geocoding service, but it costs money :/ [5.00 USD per 1000 request](https://developers.google.com/maps/documentation/geocoding/overview).
-
-## ArcGIS World Geocoder
-
-* You can geocode right in [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/help/data/geocoding/tutorial-geocode-a-table-of-addresses.htm).  Feel free to give it a shot on your own time if you want.  The reason we are **not** using it today: ESRI geodocing services uses a [credit](https://www.esri.com/en-us/arcgis/products/credits/overview?rsource=%2Fsoftware%2Farcgis%2Farcgisonline%2Fcredits) based system for geocidng.  As a student, you get 1,000 credits, which is easy to go through quickly.  You can get more if you request them from Jose, but its inconvenient.
-
-## Open Street Maps
-
-* [Open Street Maps](https://osmnames.org/) is a volunteer based platform that offers free geocoding and webmaps.  But the geocoding is somewhat error prone at times.
-
-## Mapbox
-
-* A "freemium" service up to [100,000 requests per month](https://www.mapbox.com/pricing/#geocode) and gives fairly reliable results.  This is what we are using today.  It requires you to create a free [Mapbox](https://mapbox.com) account.  Once you have an account, you will be given an [access token](https://account.mapbox.com/access-tokens/).  Which lets you use the mapbox service.  
-
-We will be using a Python module called [geopy](https://geopy.readthedocs.io/en/stable/) to interface with Mapbox for us.
-
-# Web Mapping
-
-Web mapping takes cartography beyond static maps.  You can create 
+UBC provides server space where you can run Python using [Jupyter Lab](https://ubc.syzygy.ca/jupyter).  Login with your CWL.  You'll then be taken to a blank jupyter lab.
+* This is good option for getting your bearings because nearly everything is already set up. You don't have to worry about installing anything on your own system.
+* This may sound intimidating/confusing.  But don't worry, its easy.  You don't need to know command line to do this.  I'll walk you through step by step.  You can also refer to the video below for help
 
 
-Today, we'll use a Python package called [follium]http://python-visualization.github.io/folium/ which allows us to create dynamic, interactive webmaps that can be embedded in webpages.  Folium will "translate" our python commands into Javascrpt and create [leaflet](https://leafletjs.com/) maps.  Leaflet is a javascript   Follium is already installed, so we don't have any more steps to do here!
+**2**{: .label .label-red } **Open a terminal**
 
-# Getting Started with Geocoding
+We're going to open a command terminal and use command line clone the Github workshop's repository.
 
-You can close the terminal window, we don't need it anymore.  Go back to your Jupyter Notebook window.
-* Double click on "Geocoding and Webmapping.ipynb" to open it.
+* In they Jupyter window, click File>"New" in the top right and select "Terminal" from the drop-down menu.
 
-# Web Mapping
+**3**{: .label .label-red } **Clone the Repository**
 
-Web mapping takes cartography beyond static maps.  ESRI has a platform aslled [ArcGIS Online](https://www.arcgis.com/index.html).  If you're interested in learning about it, my colleage Maya at the UBC Library Research Commons has created this [workshop](https://ubc-library-rc.github.io/intro-AGOL/).  You can look through this page, or take it live with her next semester!  Today, we'll use a Python package called [follium]http://python-visualization.github.io/folium/ which allows us to create dynamic, interactive webmaps that can be embedded in webpages.  Folium will "translate" our python commands into Javascrpt and create [leaflet](https://leafletjs.com/) maps.
+Cloning tells Git (a file tracking software) to download a repository (collection of code, data, etc.) for this workshop.
+In the new terminal window that opens, paste this command and hit enter:
+
+    git clone https://github.com/June-Skeeter/Module7_GEOS270
+
+A folder called Geocoding-Web-Mapping-with-Python should now be visible.  You can explore it using file viewer on the left, or you can use the command line (see video).
+
+**4**{: .label .label-red } **Installing a Package**
+
+In the terminal window type the command below and hit enter to install the geopy package
+
+    pip install geopy
+
+**5**{: .label .label-red }  **Opening a Jupyter Notebook**
+
+In the file viewer You will notice a folder with the same name as the repository you just cloned, double clicking the folder will open it.  You'll see a folders and a collection of files.  The one we'll be working in is called "Python_Notebooks".  Double click to enter.
+* The .ipynb tag on the end denotes a Jupyter "Notebook"
+  * A Notebook is a collection of Python code and annotations that can be run interactively.
+  * Double click on "Geocoding and Webmapping.ipynb" to open it.
+
+# Video Reference
+
+This video covers the above steps.  **Note** the vidoe is for a workshop I run.  In step 3, the URL and file names are different.  Everything else is the same.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_lqzOLeSlo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
