@@ -6,7 +6,7 @@ has_children: True
 nav_order: 4
 ---
 
-# Mapping Across Space **and** Time
+# Space and Time: Mapping Across Space **and** Time
 
 Most of the things we want to know about in the world have three main components: **What**, **Where**, and **When**.
 
@@ -40,7 +40,6 @@ Can work well with short or medium time period focused on one area
 Weaknesses:
 Do not work in print
 Does not work well for subtle changes over large geographic areas
-
 
 
 <img src='content/images/Animated.gif'>

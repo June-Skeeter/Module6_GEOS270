@@ -37,7 +37,8 @@ All written answers should be numbered and record in one document, saved as a .p
 
 [**WA1**](Contnet_Part2.md#WA2)
 
-Use the information presented in the Vox video to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
+
+Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
 
 [**WA2**](Contnet_Part1.md#WA1)
 
