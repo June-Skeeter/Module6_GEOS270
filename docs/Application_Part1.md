@@ -62,3 +62,7 @@ In the file viewer You will notice a folder with the same name as the repository
 This video covers the above steps.  **Note** the vidoe is for a workshop I run.  In step 3, the URL and file names are different.  Everything else is the same.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_lqzOLeSlo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Geocoding and Webmapping Walkthrough
+
+I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" is to run the notebook on your own, change a few things, and submit a couple screenshots.

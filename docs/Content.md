@@ -10,6 +10,11 @@ nav_order: 2
 
 Topics Covered:
 
-**Applications and Research**: How is GIS used?
+**Ethics**
 
-**Ethics**: How can GIS go wrong, what can we do to prevent that?
+**Public Participation in GIS**
+
+**Applications and Research**
+
+**Spatiotemporal GIS**
+

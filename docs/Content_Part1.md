@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Spatial Analysis
+title: Public Participation
 parent: Content
 has_children: True
 nav_order: 1
 ---
 
-# Applications and Research
+# Public Participation
 {: .no_toc }
 
-
-Ther are a wide range of applications for GIS.  More than I can cover in a day.  I'll go over a handful here.
+GIS, more than many disciplines has immense potential to have an impact on peoples lives.
 
 <details open markdown="block">
   <summary>
@@ -21,3 +20,45 @@ Ther are a wide range of applications for GIS.  More than I can cover in a day. 
 {:toc}
 </details>
 
+# Public Participation and Engagement
+
+## Volunteer Geographic Information
+
+The collection, processing, assembly, and dissemination of geographic data provided voluntarily by individuals.  Is sometimes, part of participatory approaches to GIS; sometimes its just using freely provided information that people are unaware of.  This is equally likely to be used for commercial purposes as it is for participatory, educational, and other non-commercial uses: E.g. Trip Advisor, Flickr, Twitter, etc.  Usually some sort of "wisdom of the crowds" is used to validate data, or else data verification and validation is performed by the organizing group
+
+### Area Racism and Health Outcomes
+
+
+### WA1
+Read the highlighted portions of [this study](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
+
+## Citizen Science
+
+Allows interested volunteers and researchers to team up to address some scientific question.  Volunteers provide the “leg work” of data collection, data cleaning, and initial interpretation of field data.  Guided by scientific research experts.  Participation levels can range from simple data collection through to contributing to academic journal submission.  
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="https://maps.cocorahs.org/" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="https://maps.cocorahs.org/" target="_blank">View CoCoRaHS in New Tab</a>
+
+
+## Participatory GIS
+
+The primary goals of PGIS are the empowerment and inclusion of marginalized people.  These groups tend to have little or no voice in the public arena due to extremes of location, poverty, racism, sexism, anti-religious feelings, or political disempowerment.  Often begins through a process of community mapping, with many steps and a set of long-term goals for the community.
+
+* Have members of the community generate their own data and construct their own maps
+* Bring members together to share their maps
+* Combine their work into a single community map and open the map up to review by the broader public
+* These community efforts can then be coded into a GIS to systematize the community’s knowledge and allow for greater spatial analysis to occur
+
+### Inuit land use and occupancy project
