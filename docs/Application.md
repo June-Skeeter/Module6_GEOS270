@@ -47,7 +47,7 @@ ESRI has a platform called [ArcGIS Online](https://www.arcgis.com/index.html).  
 
 ## Leaflet
 
-[Leaflet](https://leafletjs.com/) is an open-source (free) JavaScript library for mobile-friendly interactive maps. It works efficiently across all major desktop and mobile platforms and has a well-documented [API](https://leafletjs.com/reference.html).  We are going to use a Python package called [follium]http://python-visualization.github.io/folium/ to "communicate" with Leaflet and make some simple web maps like this.
+[Leaflet](https://leafletjs.com/) is an open-source (free) JavaScript library for mobile-friendly interactive maps. It works efficiently across all major desktop and mobile platforms and has a well-documented [API](https://leafletjs.com/reference.html).  We are going to use a Python package called [follium](http://python-visualization.github.io/folium/) to "communicate" with Leaflet and make some simple web maps like this.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -63,9 +63,6 @@ ESRI has a platform called [ArcGIS Online](https://www.arcgis.com/index.html).  
  </iframe>
 </div>
 <a href="../Python_Notebooks/BC_CMA_Population_2021.html" target="_blank">View Map in New Tab</a>
-
-
-
 
 # Python?
 

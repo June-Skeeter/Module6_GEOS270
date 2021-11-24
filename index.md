@@ -6,7 +6,7 @@ nav_order: 1
 
 #  	GIS Applications, Research, and Ethics    
 
-This module will cover applications of GIS and ethical implications of GIS
+This module will cover applications of GIS, ethical implications of GIS
 
 
 # Deliverables
