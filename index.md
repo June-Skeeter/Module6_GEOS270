@@ -6,7 +6,7 @@ nav_order: 1
 
 #  	GIS Applications, Research, and Ethics    
 
-This module will cover public engagement in and ethical implications of GIS; applications and research in GIS
+This module will cover public engagement in and ethical implications of GIS; applications and research in GIS; and wrap up any other loose ends we need to cover before the exam!
 
 ## Final Exam
 
@@ -32,6 +32,9 @@ The term is almost over!  Here are some details about your exam:
 	* Short answer (~ 20%)
 	* Mix of matching, fill in the blank, multiple choice, etc. (~ 10%)
 
+* Review
+	* Dec 6th, I'll post a review video covering key concepts
+	* If you have anything you're unclear on that you'd like discussed, feel free to reach out and request it!
 
 # Deliverables
 
