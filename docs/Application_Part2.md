@@ -32,4 +32,4 @@ nav_order: 2
   * Change Map_coords to match the area you're searching for
     * Pick an appropriate zoom
   * Change the fill_color
-    * Look at [colorbrewer])(https://colorbrewer2.org/#type=sequential&scheme=RdPu&n=3) and pick a colormap - Any of the sequential ones will work.
+    * Look at [colorbrewer](https://colorbrewer2.org/#type=sequential&scheme=RdPu&n=3) and pick a colormap - Any of the sequential ones will work.
