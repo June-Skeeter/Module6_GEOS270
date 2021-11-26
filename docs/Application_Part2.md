@@ -18,12 +18,13 @@ nav_order: 2
 
 **2**{: .label .label-red } Reverse geocode these points:
 
-* '49.26','-122.80'
+```python
+  '49.26','-122.80'
 
-* '49.26','122.80'
+  '49.26','122.80'
 
-* '-0.825355', '-91.125414'
-
+  '-0.825355', '-91.125414'
+```
 
 **3**{: .label .label-red } Download Total Population 2021 for somewhere other than Vancouver.  Upload it to it the the Python_Notebooks/data folder.  Run the three steps to make a Choropleth Map:
 * **Extract**
