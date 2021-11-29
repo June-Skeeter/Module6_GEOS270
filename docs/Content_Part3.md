@@ -101,6 +101,8 @@ Beyond resource extraction, there are a number of other projects that rely on pr
 
 GIS is a powerful tool for addressing social justice issues.  Especially Open Source GIS, because access is not restricted licensing fees.  I've used open source GIS techniques along with programming (Python) skills to start an organization tracking Police Involved Deaths in Canada.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fLxiSe_IGe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 ### QC5
