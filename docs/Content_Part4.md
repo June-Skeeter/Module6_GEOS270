@@ -51,7 +51,7 @@ Allowing users to zoom in or out to interact with the data.  **Strengths**: Idea
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="content/PID.html" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="https://mappingpoliceviolence.org/" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -61,4 +61,19 @@ Allowing users to zoom in or out to interact with the data.  **Strengths**: Idea
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/PID.html" target="_blank">View Map in New Tab</a>
+<a href="https://mappingpoliceviolence.org/" target="_blank">View page in New Tab</a>
+
+
+
+### QC6
+
+______ maps are your best option when you have a small number of time-steps to show.
+
+
+### QC7
+
+Animated maps are a good option when you have a large number of time-steps to show over a small area [T/F].
+
+### QC8
+
+______ maps are your option when you have a large number of time-steps to show over a large area.

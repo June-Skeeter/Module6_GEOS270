@@ -15,6 +15,9 @@ nav_order: 2
 * Click the point to show the poput text, then take a screenshot.
 
 
+### FA1
+
+Submit the screenshot of your geocoded point.
 
 **2**{: .label .label-red } Reverse geocode these points:
 
@@ -26,6 +29,11 @@ nav_order: 2
   '-0.825355', '-91.125414'
 ```
 
+### WA2
+
+What addresses did revere geocoding return for the three points?
+
+
 **3**{: .label .label-red } Download Total Population 2021 for somewhere other than Vancouver.  Upload it to it the the Python_Notebooks/data folder.  Run the three steps to make a Choropleth Map:
 * **Extract**
 * **Import**
@@ -34,3 +42,9 @@ nav_order: 2
     * Pick an appropriate zoom
   * Change the fill_color
     * Look at [colorbrewer](https://colorbrewer2.org/#type=sequential&scheme=RdPu&n=3) and pick a colormap - Any of the sequential ones will work.
+
+
+### FA2
+
+Submit the screenshot of your census layer.
+

@@ -45,7 +45,7 @@ Volunteered data isn't always volunteered willingly/knowingly.  For example, we 
 <a href="content/Chae_et_al_2015.pdf" target="_blank">View CoCoRaHS in New Tab</a>
 
 
-### WA1
+### WC1
 Read the highlighted portions of [this study](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
 
 ## Citizen Science
@@ -86,4 +86,12 @@ Participatory/counter mapping to safeguard Inuit rights to Arctic lands and wate
 No references to published work or other secondary sources of information: 100 % Original Data collection from Inuit Sources
 
 <img src='content/images/ILUOP_2.png'>
+
+
+---
+
+### QC1
+
+Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement [T/F]
+
 

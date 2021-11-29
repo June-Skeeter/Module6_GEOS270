@@ -66,3 +66,8 @@ This video covers the above steps.  **Note** the vidoe is for a workshop I run. 
 # Geocoding and Webmapping Walkthrough
 
 I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" is to run the notebook on your own, change a few things, and submit a couple screenshots.
+
+
+### WA1
+
+What are some applications you can think of for web maps?

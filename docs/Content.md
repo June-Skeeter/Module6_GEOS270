@@ -5,7 +5,7 @@ has_children: True
 nav_order: 2
 ---
 
-# Spatial Analysis & Inference
+# GIS Applications, Research, and Ethics
 {: .no_toc }
 
 Topics Covered:
