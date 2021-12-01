@@ -39,7 +39,7 @@ Basic GIS and Cartography are essential for any city planner.  Nearly every muni
 
 British Columbia's floodplain maps are [**severely outdated**](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/drought-flooding-dikes-dams/integrated-flood-hazard-management/flood-hazard-land-use-management/floodplain-mapping/floodplain-maps-by-region), as are flood maps across the country.  The province has "offloaded" responsibility of flood management [onto municipalities](https://youtu.be/o6ktS3Ex4TU), which is a grossly negligent action as the scale of the problem is far beyone what municipalities have the resources to address.  Up to [10% of Canadian homes](https://www.cbc.ca/news/canada/marketplace-home-insurance-1.6262386) are in high risk flood zones.  This largely needs to be addressed by provincial & federal governments (disasters don't respect borders).
 
-Beyond flooding ... there are many other looming disasters we need to prepare for
+Beyond flooding ... there are many other looming issues we need to prepare for:
 
 - Fires
 - Windstorms
@@ -47,6 +47,9 @@ Beyond flooding ... there are many other looming disasters we need to prepare fo
 - Tsunamis
 - Volcanoes
 - Permafrost Thaw
+- Public Health
+- Migration Crises
+- War and Famine
 
 ## Conservation and Resource Management
 

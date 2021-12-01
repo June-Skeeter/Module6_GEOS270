@@ -6,7 +6,7 @@ has_children: True
 nav_order: 4
 ---
 
-# Space and Time: Mapping Across Space **and** Time
+# Mapping Across Space **and** Time
 
 Most of the things we want to know about in the world have three main components: **What**, **Where**, and **When**.
 
