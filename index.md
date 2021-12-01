@@ -24,13 +24,10 @@ The term is almost over!  Here are some details about your exam:
 
 * Questions:
 	* Essays (~ 40%)
-	* GIS Task (~ 10%)
-		* Complete simple tasks in ArcGIS Pro
-		* Alternative option for **partial** credit if you can't get it to work
 	* Flow chart question (~ 20%)
 		* Create a flow chart outlining a GIS analysis
-	* Short answer (~ 20%)
-	* Mix of matching, fill in the blank, multiple choice, etc. (~ 10%)
+	* Short answer (~ 25%)
+	* Mix of matching, fill in the blank, multiple choice, etc. (~ 15%)
 
 * Review
 	* Dec 6th, I'll post a review video covering key concepts

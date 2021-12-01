@@ -60,25 +60,38 @@ There are open source alternatives that can provide some access to GIS:
 * Python, R, JavaScript etc. are open source programming languages that have many GIS packages.
 * Free help pages like [stackexchange](https://gis.stackexchange.com/) and github doc's pages (eg. [qgis](https://github.com/qgis/QGIS)) can help with training, but they require a base level of knowledge first.
 
+# What is Ethics?
 
-# Ethics in GIS
+Ethics is a branch of philosophy that deals with the nature of right and wrong.  It is a theory or set of standards that inform moral practice.
+
+<img src='content/images/Ethics.png'>
+
+<img src='content/images/Police.png'>
+
+<img src='content/images/Protest.png'>
+
+## Ethics in Science
+
+Research often involves handling the private, personal information about individuals and minority groups:
+* There is a need that potential participants trust that their information will be used in a safe and respected manner
+
+### Ethics in GIS
 
 In many ways, GIS has the potential to be more intrusive in to people’s every day lives other sciences:
-We can know where people are at any given time
-We can guess at what they are doing reasonably well
-We can know where people shop, approximately how much money they make, who they know, and to which organizations they belong
-We can know if they belong to minority groups:
-E.g., racial minorities, religious minorities, political groups, LGBTQI* 
+* We can know where people are at any given time
+* We can guess at what they are doing reasonably well
+* We can know where people shop, approximately how much money they make, who they know, and to which organizations they belong
+* We can know if they belong to minority groups:
+  * E.g., racial minorities, religious minorities, political groups, LGBTQI* 
+
 
 ## Data privacy and security
 
-Point locations risk exposing personal information
-Many agencies have guidelines surrounding exposure of health information
+Point locations risk exposing personal information.  Many agencies have guidelines surrounding exposure of health information.  More detailed information gives more accurate representations and allows for better decision making.  But it also impacts privacy  Where is they line?  How specific is too specific?
 
-More detailed information gives more accurate representations
-Allows for better decision making.
-But it also impacts privacy
-Where is they line?  How specific is too specific?
+<img src='content/images/bc_covid.png'>
+
+<img src='content/images/toronto_covid.png'>
 
 ## Data representation
 
