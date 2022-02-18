@@ -1,4 +1,4 @@
-title: GEOS270 2021W1
+title: GEOS270 Module6
 remote_theme: pmarsceill/just-the-docs
 search_enabled: true
 github_repo_url: "https://june-skeeter.github.io/Module7_GEOS270/"
@@ -9,8 +9,11 @@ heading_anchors: true
 markdown: kramdown
 
 aux_links:
-  "Course Syllabus":
-    - "https://june-skeeter.github.io/GEOS270W1/"
+  "Course Schedule":
+    - "https://june-skeeter.github.io/GEOS270W2/docs/Overview.html#schedule"
+
+  "View on Github":
+    - "https://github.com/June-Skeeter/Module6_GEOS270"
 
 # license information for content
 license_name: "Creative Commons Attribution 4.0 International License"
