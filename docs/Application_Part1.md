@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Getting Setup
+title: Geocoding and Web Mapping
 parent: Application
 nav_order: 1
 ---
 
-# Getting Setup
+# Your Tasks
 {: .no_toc }
 
-This section provides an explanation of how to get things set up.
+Work through this tutorial and:
+
+**1**{: .label .label-blue } Geocode an address and list the coordinatess.
+
+**2**{: .label .label-blue } Reverse geocode three addresses and list the address.
+
+**3**{: .label .label-blue } Submit a screenshot of your final map.
 
 <details open markdown="block">
   <summary>
@@ -20,7 +26,7 @@ This section provides an explanation of how to get things set up.
 </details>
 
 
-# Download the Code and Data
+# Getting Setup: Download the Code and Data
 
 **1**{: .label .label-red } **Start a Jupyter Lab**
 
@@ -67,7 +73,8 @@ This video covers the above steps.  **Note** the vidoe is for a workshop I run. 
 
 I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" is to run the notebook on your own, change a few things, and submit a couple screenshots.
 
-
+<!-- 
 ### WA1
 
 What are some applications you can think of for web maps?
+ -->
