@@ -32,7 +32,7 @@ This video by Vox gives a pretty good overview of some of the problems with AI a
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ok5sKLXqynQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### WC2
+### Quiz Question No. 3
 
 Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
 

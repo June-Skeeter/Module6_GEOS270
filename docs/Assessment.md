@@ -28,57 +28,55 @@ Written answers should be brief but they should adequately answer the question. 
 
 [**1**](Contnet_Part1.md)
 
-Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement [T/F].
+Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement. [T/F]
 
-[**1**](Contnet_Part1.md)
+[**2**](Contnet_Part1.md)
 
-Read the highlighted portions of [this study](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
+Read the highlighted portions of [Chae et al. (2015)](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to write a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
 
-
-
-[**3**](Contnet_Part2.md#WC2)
-
+[**3**](Contnet_Part2.md)
 
 Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
 
-
 [**4**](Contnet_Part2.md)
 
-____ is the practice of reflecting on and disclosing your position relative to your work/research. 
+What is a positionality statement?
 
 [**5**](Contnet_Part2.md)
 
-Just because something is illegal, does not mean its unethical. [T/F]
+If something is illegal, that means it is also unethical. [T/F]
 
 [**6**](Contnet_Part2.md)
 
-____ software can help minimize the barriers to access GIS technology.
+Proprietary software can help minimize the barriers to access GIS technology. [T/F]
 
 
-[**7**](Contnet_Part3.md)
-The Province of BC has ____ responsibility for flood management onto municipal governments. 
+[**7**](Contnet_Part4.md)
+Static maps are your best option when you have a large number of time-steps to show. [T/F].
 
 
 [**8**](Contnet_Part4.md)
-______ maps are your best option when you have a small number of time-steps to show.
+Animated maps are a good option when you have a large number of time-steps to show over a small area. [T/F]
 
 
 [**9**](Contnet_Part4.md)
-Animated maps are a good option when you have a large number of time-steps to show over a small area [T/F].
+These maps are your option when you have a large number of time-steps to show over a large area.
 
-
-[**10**](Contnet_Part4.md)
-______ maps are your option when you have a large number of time-steps to show over a large area.
-
+- Static
+- Animated
+- Dynamic
 
 ---
 
 ## Lab Application Questions
 
-[**11**](Application.md)
+[**10**](Application.md)
 
 What is geocoding?
 
+[**11**](Application.md)
+
+What is the difference between Mapbox's geocoding service and the ArcGIS World Geocoder?
 
 [**12**](Application_Part1.md)
 
@@ -96,7 +94,7 @@ What neighbourhood did you select and how many street trees does it have? (hint)
 
 [**15**](Application_Part1.md)
 
-What tree did you select?
+What type of tree did you select?
 
 [**16**](Application_Part1.md)
 

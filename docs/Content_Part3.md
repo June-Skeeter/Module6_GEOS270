@@ -3,7 +3,7 @@ layout: default
 title: Applications and Research
 parent: Lecture Content
 has_children: True
-nav_order: 3
+nav_order: 4
 ---
 
 # Applications and Research
@@ -98,7 +98,6 @@ GIS is a powerful tool for addressing social justice issues.  Especially Open So
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fLxiSe_IGe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
----
 <!-- 
 ### QC5
 

@@ -26,6 +26,10 @@ Work through this tutorial and:
 </details>
 
 
+# Geocoding and Webmapping Walkthrough
+
+I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" is to run the notebook on your own, complete a few tasks, and submit a screenshot.  You can watch the lecture recording on canvas for guidance if you're doing this later, or you can follow along now!
+
 # Getting Setup: Download the Code and Data
 
 **1**{: .label .label-red } **Start a Jupyter Lab**
@@ -46,7 +50,7 @@ We're going to open a command terminal and use command line clone the Github wor
 Cloning tells Git (a file tracking software) to download a repository (collection of code, data, etc.) for this workshop.
 In the new terminal window that opens, paste this command and hit enter:
 
-    git clone https://github.com/June-Skeeter/Module7_GEOS270
+    git clone https://github.com/June-Skeeter/Module6_GEOS270
 
 A folder called Geocoding-Web-Mapping-with-Python should now be visible.  You can explore it using file viewer on the left, or you can use the command line (see video).
 
@@ -69,12 +73,3 @@ This video covers the above steps.  **Note** the vidoe is for a workshop I run. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_lqzOLeSlo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Geocoding and Webmapping Walkthrough
-
-I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" is to run the notebook on your own, change a few things, and submit a couple screenshots.
-
-<!-- 
-### WA1
-
-What are some applications you can think of for web maps?
- -->

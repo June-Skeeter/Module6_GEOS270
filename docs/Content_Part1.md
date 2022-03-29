@@ -42,11 +42,12 @@ Volunteered data isn't always volunteered willingly/knowingly.  For example, we 
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Chae_et_al_2015.pdf" target="_blank">View CoCoRaHS in New Tab</a>
+<a href="content/Chae_et_al_2015.pdf" target="_blank">View in New Tab</a>
 
 
-### WC1
-Read the highlighted portions of [this study](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
+### Quiz Question No. 2
+
+Read the highlighted portions of [Chae et al. (2015)](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
 
 ## Citizen Science
 
@@ -65,7 +66,7 @@ Allows interested volunteers and researchers to team up to address some scientif
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="https://maps.cocorahs.org/" target="_blank">View CoCoRaHS in New Tab</a>
+<a href="https://maps.cocorahs.org/" target="_blank">View in New Tab</a>
 
 
 ## Participatory GIS
