@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Space and Time
-parent: Content
+parent: Lecture Content
 has_children: True
 nav_order: 4
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Public Participation in GIS
-parent: Content
+parent: Lecture Content
 has_children: True
 nav_order: 1
 ---
@@ -87,7 +87,7 @@ No references to published work or other secondary sources of information: 100 %
 
 <img src='content/images/ILUOP_2.png'>
 
-
+<!-- 
 ---
 
 ### QC1
@@ -95,3 +95,4 @@ No references to published work or other secondary sources of information: 100 %
 Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement [T/F]
 
 
+ -->
