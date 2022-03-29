@@ -5,7 +5,7 @@ parent: Application
 nav_order: 2
 ---
 
-# Your Tasks
+# 
 
 
 **1**{: .label .label-red } Geocode your own point - Pick a location outside the metro Vancouver Area and geocode it.  

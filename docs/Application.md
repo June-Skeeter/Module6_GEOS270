@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Application
+title: Lab Application
 has_children: True
 nav_order: 3
 ---
@@ -32,7 +32,7 @@ Arguably the best geocoding service, but it costs money :/ [5.00 USD per 1000 re
 
 ## ArcGIS World Geocoder
 
-You can geocode in [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/latest/help/data/geocoding/tutorial-geocode-a-table-of-addresses.htm).  Feel free to give it a shot on your own time if you want.  The reason we are **not** using for here: ESRI geocoding services uses a [credit](https://www.esri.com/en-us/arcgis/products/credits/overview?rsource=%2Fsoftware%2Farcgis%2Farcgisonline%2Fcredits) based system for geocoding because it is a "premium" service.  As a student, you get something like 1,000 credits, which is easy to go through quickly.  You can get more if you request them from Jose, but its inconvenient, and Jose only has a limited number to give out.  It makes learning/troubleshooting difficult.
+You can geocode in ArcGIS Pro.  You can find a simple tutorial [here](https://pro.arcgis.com/en/pro-app/latest/help/data/geocoding/tutorial-geocode-a-table-of-addresses.htm) and more information [here](https://pro.arcgis.com/en/pro-app/latest/help/data/geocoding/convert-a-table-to-locations-on-the-map.htm) if you need to geocode for your final proejct.  Feel free to give it a shot on your own time if you want.  The reason I am **not** fond of using ArcGIS Pro to geocode: ESRI geocoding services uses a [credit](https://www.esri.com/en-us/arcgis/products/credits/overview?rsource=%2Fsoftware%2Farcgis%2Farcgisonline%2Fcredits) based system for geocoding because it is a "premium" service.  As a student, you get something like 1,000 credits, which is easy to go through quickly.  You can get more if you request them from Jose, but its inconvenient, and Jose only has a limited number to give out.  It makes learning/troubleshooting difficult.
 
 ## Mapbox
 
@@ -43,7 +43,7 @@ A "freemium" service up to [100,000 requests per month](https://www.mapbox.com/p
 Web mapping takes cartography beyond static maps.  It allows us to create dynamic, interactive web maps that can be embedded in webpages!
 
 ## ArcGIS Online
-ESRI has a platform called [ArcGIS Online](https://www.arcgis.com/index.html).  If you're interested in learning about it, my colleague Maya at the UBC Library Research Commons has created this [workshop](https://ubc-library-rc.github.io/intro-AGOL/).  You can look through this page if you're interested in learning how to use it.  Maya will be running the workshop next semester, it's free for UBC students to register!
+ESRI has a platform called [ArcGIS Online](https://www.arcgis.com/index.html).  If you're interested in learning about it, my colleague Maya at the UBC Library Research Commons has created this [workshop](https://ubc-library-rc.github.io/intro-AGOL/).  You can look through this page if you're interested in learning how to use it.
 
 ## Leaflet
 
