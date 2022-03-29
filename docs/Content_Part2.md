@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ethics
-parent: Content
+parent: Lecture Content
 has_children: True
 nav_order: 2
 ---
@@ -113,7 +113,7 @@ Some important questions to ask yourself.  You should disclose this information 
   * What biases may I have and how may my past experiences influence how I engage with this work?
 
 
-
+<!-- 
 ---
 
 ### QC2
@@ -127,4 +127,4 @@ Just because something is illegal, does not mean its unethical. [T/F]
 
 ### QC4
 
-____ software can help minimize the barriers to access GIS technology.
+____ software can help minimize the barriers to access GIS technology. -->

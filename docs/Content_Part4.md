@@ -62,7 +62,7 @@ Allowing users to zoom in or out to interact with the data.  **Strengths**: Idea
  </iframe>
 </div>
 <a href="https://mappingpoliceviolence.org/" target="_blank">View page in New Tab</a>
-
+<!-- 
 
 
 ### QC6
@@ -76,4 +76,4 @@ Animated maps are a good option when you have a large number of time-steps to sh
 
 ### QC8
 
-______ maps are your option when you have a large number of time-steps to show over a large area.
+______ maps are your option when you have a large number of time-steps to show over a large area. -->

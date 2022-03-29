@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geocoding and Web Mapping
-parent: Application
+parent: Lab Application
 nav_order: 1
 ---
 
