@@ -28,22 +28,29 @@ nav_order: 5
 
 **Prompt**: Based on your analysis from the Tsunami Risk Assessment, the city of Port Alberni has been given funding build a new evacuation shelter.  You have been tasked with finding a suitable location for the shelter.
 
-The shelter must:
+**Criteria**: The shelter must
 
-* Be located outside of any potential inundation zone (Elevation > 15 m **or** distance from cost > 1 km)
+* Be located outside of any potential inundation zone (Elevation > 15 m **or** distance from coastline > 1 km).
+* Be at least 1 km away from existing shelters.
+* Service at least 1,000 residents (assume 1 km radius for service area)
+* Located no more than 250 m away from an Arterial Roadway
 
-You have the following data layers to work with:
+**Data**
 
 |Name      |      Type          |  Coordinate System  |  Attributes |
 |----------|--------------------|---------------------|-------------|
-|Digital Elevation Model |Raster|WGS 1984 | Elevation (m) |
+|Digital Elevation Model |Raster|UTM Zone 10N | Elevation (m) |
 |BC Coastal Boundary File|Vector (line) |UTM Zone 10N | Name |
-|BC Roads Layer |Vector (line) |UTM Zone 10N | Road Type, Name |
+|BC Roads Layer |Vector (line) |UTM Zone 10N | Road Type (Arterial/Residential/Private), Name |
 |Census Dissemination Areas |Vector (polygon) |UTM Zone 10N | Population, Income, Housing Cost |
 |Current Shelters |Text (.csv)|WGS 1984 | Latitude/Longitude, Name, Capacity |
 
 
+### Short Answer
 
-  * Short answer (~ 25%)
-  * Mix of matching, fill in the blank, multiple choice, etc. (~ 15%)
+Generally, 1-3 sentences will suffice.  Try not to write much more than a paragraph.  Bullet point lists are sufficient where applicable.
+
+### Miscellaneous Questions
+
+Mix of matching, fill in the blank, multiple choice, etc. (~ 15%)
 
