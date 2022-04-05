@@ -108,7 +108,7 @@ GIS is a powerful tool for addressing social justice issues.  Especially Open So
 <div style="overflow: hidden;
   padding-top: 60%;
   position: relative">
-  <iframe src="https://police-involved-deaths-ca.github.io/Data/#increasing-police-violence-in-canada" title="Processes" scrolling="yes" frameborder="0"
+  <iframe src="https://police-involved-deaths-ca.github.io/Data/" title="Processes" scrolling="yes" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
