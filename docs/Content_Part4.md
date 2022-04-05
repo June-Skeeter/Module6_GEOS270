@@ -42,7 +42,7 @@ Do not work in print
 Does not work well for subtle changes over large geographic areas
 
 
-<img src='content/images/Animated.gif'>
+<img src='content/images/animated.gif'>
 
 ### Dynamic Maps
 
@@ -51,7 +51,7 @@ Allowing users to zoom in or out to interact with the data.  **Strengths**: Idea
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="https://mappingpoliceviolence.org/" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="https://governmentofbc.maps.arcgis.com/apps/dashboards/f0ac328d88c74d07aa2ee385abe2a41b" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -61,5 +61,23 @@ Allowing users to zoom in or out to interact with the data.  **Strengths**: Idea
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="https://mappingpoliceviolence.org/" target="_blank">View page in New Tab</a>
+<a href="https://governmentofbc.maps.arcgis.com/apps/dashboards/f0ac328d88c74d07aa2ee385abe2a41b" target="_blank">View page in New Tab</a>
 
+### Story Maps
+
+Similar to dynamic maps, this method of presentation is centered on interactivity.  Story maps embed maps within a webpage, among text and images.  Scrolling through the page, brings new information.
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="https://storymaps.arcgis.com/stories/19d24f59487b46f6a011dba140eddbe7" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="https://storymaps.arcgis.com/stories/19d24f59487b46f6a011dba140eddbe7" target="_blank">View page in New Tab</a>

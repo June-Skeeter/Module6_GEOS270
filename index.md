@@ -34,7 +34,7 @@ The term is almost over!  Here are some details about your exam:
 * **Cumulative**: All material from lecture and lab are fair game
 
 * 3 Day Window to Complete
-	* 0:00 April Dec 19th to 23:59 April Dec 21st
+	* 0:00 April 19th to 23:59 April 21st
 	* **One Attempt** - six hours
 		* Not intended to take six hours.  I just don't want you to feel rushed.
 		* If you have a letter from access and diversity and need more than the allotted time, contact me **before** the exam.
