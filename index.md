@@ -10,6 +10,8 @@ This module will cover public engagement in and ethical implications of GIS; app
 
 ## Final Projects
 
+All proposal submissions submitted thus far have been marked and relevant feedback has been provided.
+
 Projects are due **June 22nd**.  They will be accepted up to 7 days late **however**, the extra time will be considered when marking.  Later submissions will be marked more harshly.
 
 **A note on participation**:  it is up to group members to determine the allocation of the work for the project.  However, if there are severe discrepancies in participation, I can and will adjust individual marks accordingly.  If there are serious participation issues, please reach out to me after submitting the project.
