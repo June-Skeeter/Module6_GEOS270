@@ -10,7 +10,7 @@ nav_order: 1
 
 ## Alysha Baratta
 
-Product Manager at [Peace Geeks](https://peacegeeks.org/)
+Product Manager at [PeaceGeeks](https://peacegeeks.org/)
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
