@@ -4,28 +4,27 @@ title: Module 6
 nav_order: 1
 ---
 
-#  GIS Applications, Research, and Ethics    
+#  Ethics in GIS; Applications & Research; Final Exam Review   
 
 This module will cover public engagement in and ethical implications of GIS; applications and research in GIS; and wrap up any other loose ends we need to cover before the exam!
 
 ## Extended Office Hours
 
-I will be in from 12:30 - 5 Tue/Thur through the end of term (April 12th) if you need extra help.
+I will be in from 10:00-12:00 & 2:00 - 3:00 Tue/Thur through June 23rd if you need extra help with anything.
 
-## Teaching Evaluatoins!
+## Teaching Evaluations!
 
-I value your feedback - please fill them out so I can think about how to imporve my teaching going forward!
+I value your feedback - please fill them out so I can think about how to improve my teaching going forward!
 
-* What worked for you?
-	* What didn't?
+* What worked for you & what didn't?
 * How was the pace & format?
 	* Anything I should spend more time on?
-	* Would you have preferred separate lab & lecture quizzes?
+	* Did you find any modules particularly difficult?
 
 * They also help my future employment prospects :)
 
 
-## Final Exam
+<!-- ## Final Exam
 
 The term is almost over!  Here are some details about your exam:
 
@@ -47,5 +46,6 @@ The term is almost over!  Here are some details about your exam:
 	* Mix of matching, fill in the blank, multiple choice, etc. (~ 15%)
 
 * Review
-	* I'll do a review covering key concepts in the last week of class April 5th/7th.
-	* If you have anything you're unclear on that you'd like discussed, feel free to reach out and request it!
+	* I'll do a review covering key concepts on June 21st.
+	* If you have anything you're unclear on that you'd like discussed, please reach out and request it!
+ -->

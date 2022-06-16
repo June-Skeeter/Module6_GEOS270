@@ -1,13 +1,18 @@
 ---
 layout: default
 title: Exam Review
-parent: Lecture Contentttt
+parent: Lecture Content
 has_children: True
-nav_order: 5
+nav_order: 6
 ---
 
 # Final Exam Review
 
+This will be available Tuesday the 21st
+
+**The Exam review recoriding will not be avaialable on canvas during the exam!**
+
+<!-- 
 ## Essays (30 pts x3)
 
 * No definitive word count/limit.  Responses can be brief, but should be thorough - answer all parts of the question.
@@ -81,3 +86,4 @@ Generally, 1-3 sentences will suffice.  Try not to write much more than a paragr
 * Write a positionality statement for your final project.  (Point value tbd)
 
 
+ -->

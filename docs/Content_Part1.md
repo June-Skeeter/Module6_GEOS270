@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Public Participation in GIS
-parent: Lecture Content
+title: Video and Reading
+parent: Ethics in GIS
+grand_parent: Lecture Content
 has_children: True
 nav_order: 1
 ---
@@ -21,11 +22,28 @@ There are many ways the public can be involved in GIS; the can participate activ
 </details>
 
 
-## Volunteer Geographic Information
+# Unchecked Potential
+
+Many machine learning systems are becoming more complex than we can fully comprehend.  Artificial Intelligence (AI) has the capacity to be of significant benefit to humanity - learning complex patterns and predicting outcomes before traditional systems can.  However, they can also do significant harm when used irresponsibly and without proper oversight.
+
+
+## Are We Automating Racism?
+
+This video by Vox gives a pretty good overview of some of the problems with AI and discusses some possible solutions.  
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ok5sKLXqynQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Quiz Question No. 1
+
+Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
+
+
+# Volunteer Geographic Information Application
 
 The collection, processing, assembly, and dissemination of geographic data provided voluntarily by individuals.  Is sometimes, part of participatory approaches to GIS; sometimes its just using freely provided information that people are unaware of.  This is equally likely to be used for commercial purposes as it is for participatory, educational, and other non-commercial uses: E.g. Trip Advisor, Flickr, Twitter, etc.  Usually some sort of "wisdom of the crowds" is used to validate data, or else data verification and validation is performed by the organizing group
 
-### Area Racism and Health Outcomes
+## Area Racism and Health Outcomes
 
 Volunteered data isn't always volunteered willingly/knowingly.  For example, we can use google search metadata to find out things people might not willingly share themselves.
 

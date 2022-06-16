@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geocoding and Web Mapping
-parent: Application
+parent: Applicationmm
 nav_order: 2
 ---
 
@@ -14,12 +14,7 @@ nav_order: 2
 * Change the fill_color (purple, green, blue, etc.)
 * Click the point to show the poput text, then take a screenshot.
 
-
-### FA1
-
-Submit the screenshot of your geocoded point.
-
-**2**{: .label .label-red } Reverse geocode these points:
+**2**{: .label .label-red } Reverse geocode these points.  What addresses did revere geocoding return for the three points?
 
 ```python
   '49.26','-122.80'
@@ -28,10 +23,6 @@ Submit the screenshot of your geocoded point.
 
   '-0.825355', '-91.125414'
 ```
-
-### WA2
-
-What addresses did revere geocoding return for the three points?
 
 
 **3**{: .label .label-red } Download Total Population 2021 for somewhere other than Vancouver.  Upload it to it the the Python_Notebooks/data folder.  Run the three steps to make a Choropleth Map:
@@ -43,8 +34,4 @@ What addresses did revere geocoding return for the three points?
   * Change the fill_color
     * Look at [colorbrewer](https://colorbrewer2.org/#type=sequential&scheme=RdPu&n=3) and pick a colormap - Any of the sequential ones will work.
 
-
-### FA2
-
-Submit the screenshot of your census layer.
-
+d

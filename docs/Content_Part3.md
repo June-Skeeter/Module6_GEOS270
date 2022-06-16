@@ -9,7 +9,6 @@ nav_order: 4
 # Applications and Research
 {: .no_toc }
 
-
 What can you do with GIS?  It is a tool that can be of considerable utility in many different fields.  There aren't necessarily a ton of jobs advertised as **GIS Analyst**, but there a wide range of applications for GIS!
 
 <details open markdown="block">
@@ -21,8 +20,6 @@ What can you do with GIS?  It is a tool that can be of considerable utility in m
 {:toc}
 </details>
  
-
-
 # Government
 
 Many government positions, from municipal to federal, require GIS skills.
@@ -97,7 +94,9 @@ Beyond resource extraction, there are a number of other projects that rely on pr
 ## Climate Change
 {: .no_toc }
 
-GIS has a wide range of applications for addressing climate change.  Satellite data can be used to monitor impacts and advance our understanding.  Mapping can be used to work towards mitigation and develop strategies for adaptation (eg. mapping sea level rise, risk assessments for highways, assessing fire risk)
+GIS has a wide range of applications for addressing climate change.  Satellite data can be used to monitor impacts and advance our understanding.  Mapping can be used to work towards mitigation and develop strategies for adaptation (eg. mapping sea level rise, risk assessments for highways, assessing fire risk).
+
+* I frequently use GIS in my own research, it was a central part of my dissertation and now I'm using it working for the UBC Micrometeorology research group.
 
 ## Social Justice
 {: .no_toc }

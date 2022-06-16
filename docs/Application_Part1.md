@@ -5,32 +5,12 @@ parent: Lab Application
 nav_order: 1
 ---
 
-# Your Tasks
-{: .no_toc }
-
-Work through this tutorial and:
-
-**1**{: .label .label-blue } Geocode an address and list the coordinatess.
-
-**2**{: .label .label-blue } Reverse geocode three addresses and list the address.
-
-**3**{: .label .label-blue } Submit a screenshot of your final map.
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 
 # Geocoding and Webmapping Walkthrough
 
-I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" is to run the notebook on your own, complete a few tasks, and submit a screenshot.  You can watch the lecture recording on canvas for guidance if you're doing this later, or you can follow along now!
+I'm going to give you a quick walk through of the geocoding notebook.  Your "Lab" for this week is just to follow along through this tutorial and answer the respective questions.
 
-# Getting Setup: Download the Code and Data
+## Getting Setup: Download the Code and Data
 
 **1**{: .label .label-red } **Start a Jupyter Lab**
 
@@ -67,7 +47,7 @@ In the file viewer You will notice a folder with the same name as the repository
   * A Notebook is a collection of Python code and annotations that can be run interactively.
   * Double click on "Geocoding and Webmapping.ipynb" to open it.
 
-# Video Reference
+## Video Reference
 
 This video covers the above steps.  **Note** the vidoe is for a workshop I run.  In step 3, the URL and file names are different.  Everything else is the same.
 

@@ -27,77 +27,73 @@ Written answers should be brief but they should adequately answer the question. 
 ## Lecture Content Questions
 
 [**1**](Contnet_Part1.md)
-
-Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement. [T/F]
+Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
 
 [**2**](Contnet_Part1.md)
-
 Read the highlighted portions of [Chae et al. (2015)](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to write a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
 
 [**3**](Contnet_Part2.md)
-
-Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
+What are positionality statements and why are they important?
 
 [**4**](Contnet_Part2.md)
-
-What is a positionality statement?
-
-[**5**](Contnet_Part2.md)
-
 If something is illegal, that means it is also unethical. [T/F]
 
-[**6**](Contnet_Part2.md)
-
+[**5**](Contnet_Part2.md)
 Proprietary software can help minimize the barriers to access GIS technology. [T/F]
 
+[**6**](Contnet_Part2.md)
+Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement. [T/F]
 
-[**7**](Contnet_Part4.md)
-Static maps are your best option when you have a large number of time-steps to show. [T/F].
+[**7**](Contnet_Part3.md)
+GIS has a wide range of applications in the public and private sectors. [T/F]
 
+[**8**](Guest_Speaker.md)
+Our guest speaker Alysha Baratta works for a vancouver based non-profit organization called Peace Geeks. [T/F]
 
-[**8**](Contnet_Part4.md)
-Animated maps are a good option when you have a large number of time-steps to show over a small area. [T/F]
-
-
-[**9**](Contnet_Part4.md)
-These maps are your option when you have a large number of time-steps to show over a large area.
-
-- Static
-- Animated
-- Dynamic
+[**9**](Guest_Speaker.md)
+Write a paragraph or two describing what our guest speaker talked about and what you found most interesting about her presentation.
 
 ---
 
 ## Lab Application Questions
 
 [**10**](Application.md)
-
 What is geocoding?
 
 [**11**](Application.md)
-
 What is the difference between Mapbox's geocoding service and the ArcGIS World Geocoder?
 
 [**12**](Application_Part1.md)
+What are the lat, lon coordinates of the UBC geography building?
 
-Geocode the address of the UBC Geography Building (1984 west mall + (city + prov, etc)).  What is the full address + the lat/lon coordinates returned?
+* 49.265772, -123.255976
+* -49.265772, -123.255976
+* -123.255976, 49.265772
+* 49265772, -123255976
 
 [**13**](Application_Part1.md)
-
-What addresses did the reverse geocoding return for the three points?
-
+Why do you think reverse geocoding the coordinates for "Location2" failed to return a result?
 
 [**14**](Application_Part1.md)
+What is the most common street tree in Vancouver's Mount Pleasant neighbourhood?
 
-What neighbourhood did you select and how many street trees does it have? (hint) look at # of rows & columns
-
+* KWANZAN FLOWERING CHERRY
+* NORWAY MAPLE
+* EUROPEAN BEECH
+* WESTERN RED CEDAR
+* JAPANESE MAPLE
 
 [**15**](Application_Part1.md)
+What file format are we using to save this webmap?
 
-What type of tree did you select?
+* .html
+* .csv
+* .png
+* .jpg
+* .geojson
 
-[**16**](Application_Part1.md)
 
-Submit the screenshot of the map of your geocoded trees!
+[**16**](Application.md)
+What are some pros/cons that you can think of for using an open source programming language like python to do GIS, verses a proprietary software package like ArcGIS Pro?
 
 
