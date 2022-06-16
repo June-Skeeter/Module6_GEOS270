@@ -98,47 +98,12 @@ There are open source alternatives that can provide some access to GIS:
 
 
 # Public Participation
-{: .no_toc }
 
 There are many ways the public can be involved in GIS; the can participate actively or passively.  Engagement is crucial in many ways.
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
 
 ## Volunteer Geographic Information
 
 The collection, processing, assembly, and dissemination of geographic data provided voluntarily by individuals.  Is sometimes, part of participatory approaches to GIS; sometimes its just using freely provided information that people are unaware of.  This is equally likely to be used for commercial purposes as it is for participatory, educational, and other non-commercial uses: E.g. Trip Advisor, Flickr, Twitter, etc.  Usually some sort of "wisdom of the crowds" is used to validate data, or else data verification and validation is performed by the organizing group
-
-### Area Racism and Health Outcomes
-
-Volunteered data isn't always volunteered willingly/knowingly.  For example, we can use google search metadata to find out things people might not willingly share themselves.
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="content/Chae_et_al_2015.pdf" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="content/Chae_et_al_2015.pdf" target="_blank">View in New Tab</a>
-
-
-### Quiz Question No. 2
-
-Read the highlighted portions of [Chae et al. (2015)](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
 
 ## Citizen Science
 
