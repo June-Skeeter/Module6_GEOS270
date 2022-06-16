@@ -12,7 +12,7 @@ nav_order: 1
 
 Product Manager at [PeaceGeeks](https://peacegeeks.org/)
 
-Emails: alysha@peacegeeks.org
+Email: alysha@peacegeeks.org
 
 If you know of anyone who might benefit from these services, you can help spread the word that the app for newcomers to BC, Arrival Advisor, is now available in Ukrainian and Farsi!  More info is available on:
 
