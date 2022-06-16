@@ -8,9 +8,8 @@ nav_order: 1
 
 # Guest Speaker
 
-Alysha Baratta
-Product Manager: Peace Geeks
-alysha@peacegeeks.org
+Alysha Baratta: alysha@peacegeeks.org
+Product Manager: [Peace Geeks](https://peacegeeks.org/)
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
