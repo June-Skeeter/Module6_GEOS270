@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Ethics in GIS
+title: Applications and Research
 parent: Lecture Content
 has_children: True
-nav_order: 2
+nav_order: 4
 ---
 
-# Ethics
+# Applications and Research
 {: .no_toc }
 
-GIS, more than many disciplines has immense potential to have an impact on peoples lives.
+What can you do with GIS?  It is a tool that can be of considerable utility in many different fields.  There aren't necessarily a ton of jobs advertised as **GIS Analyst**, but there a wide range of applications for GIS!
 
 <details open markdown="block">
   <summary>
@@ -19,111 +19,95 @@ GIS, more than many disciplines has immense potential to have an impact on peopl
 1. TOC
 {:toc}
 </details>
+ 
+# Government
 
+Many government positions, from municipal to federal, require GIS skills.
 
-# What is Ethics?
-
-Ethics is a branch of philosophy that deals with the nature of right and wrong.  It is a theory or set of standards that inform moral practice.  Though the laws we have constructed as a society may be informed by morality, Ethics and legality are **not** synonymous.
-
-<img src='content/images/Ethics.png' width=600>
-
-Legal but Unethical                   | Ethical but Illegal              
-:------------------------------------:|:-------------------------------------:
-<img src='content/images/Police.png'> |<img src='content/images/Protest.png'>
-
-## Ethics in Science
-
-Research often involves handling the private, personal information about individuals and minority groups:
-* There is a need that potential participants trust that their information will be used in a safe and respected manner
-
-## Ethics in GIS
-
-In many ways, GIS has the potential to be more intrusive in to people’s every day lives other sciences:
-* We can know where people are at any given time
-* We can guess at what they are doing reasonably well
-* We can know where people shop, approximately how much money they make, who they know, and to which organizations they belong
-* We can know if they belong to minority groups:
-  * E.g., racial minorities, religious minorities, political groups, LGBTQI* 
-
-
-### The Power of a Line
-
-What side of a border you live up on can have drastic impacts on outcomes.  Where you live determines:
-
-- What rights you have.
-- What schools you attend.
-- How much your vote matters (if you even get to vote).
-- How much you pay in taxes.
-- What services you have access too.
-- Where you can travel.
-
-## Data privacy and security
-
-Point locations risk exposing personal information.  Many agencies have guidelines surrounding exposure of health information.  More detailed information gives more accurate representations and allows for better decision making.  But it also impacts privacy  Where is they line?  How specific is too specific?  The city of Toronto maps COVID cases at the [neighborhood level](https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/), in BC data is released at a much [coarser resolution](http://www.bccdc.ca/Health-Info-Site/PublishingImages/health-info/diseases-conditions/covid-19/data/covid19_lha_20211114_20211120.png) and the interactive data portal gives [less information](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded).
-
-## Data representation
-
-All maps lie, but some lie more than others.  How we choose to classify our data can have a big impact on how it is perceived.  Every cartographic choice you make can have ramifications.
-
-
-
-# Positionality
-
-It is important to reflect on your relation to your work.  In the social sciences, positionality is especially important, because a researches privileges, biases, and preconceptions can drastically impact the people and communities they are working with.  In some of the "hard" sciences, there are often a claims of total objectivity, but complete objectivity is impossible.  No one is completely objective, that must be understood and acknowledged regardless of the field.
-
-## Why this topic? Why now? Why me?
-
-Some important questions to ask yourself.  You should disclose this information when pertinent.
-
-* Who am I and where do I come from? 
-
-* What is my relationship to the community/field I am working in? 
-
-* What are my motivations for this work?
-  * What biases may I have and how may my past experiences influence how I engage with this work?
-
-
-
-# Who Has Access to GIS? 
-
-Who has access to GIS?  ESRI products (e.g. ArcGIS Pro) have very expensive licensing fees.  Beyond just the cost of the software, hardware to run GIS is not always accessible, and GIS training takes time.  There are options to make GIS more accessible to the public, but regardless, GIS
-
-## Open Source Options
-
-There are open source alternatives that can provide some access to GIS:
-
-* [QGIS](https://qgis.org/en/site/) is an application with similar functionality to ArcGIS Pro.
-* Python, R, JavaScript etc. are open source programming languages that have many GIS packages.
-* Free help pages like [stackexchange](https://gis.stackexchange.com/) and github doc's pages (eg. [qgis](https://github.com/qgis/QGIS)) can help with training, but they require a base level of knowledge first.
-
-
-# Public Participation
+## Urban Planning
 {: .no_toc }
 
-There are many ways the public can be involved in GIS; the can participate actively or passively.  Engagement is crucial in many ways.
+Basic GIS and Cartography are essential for any city planner.  Nearly every municipality has a planning department.   City of Vancouver [Planning Department](https://vancouver.ca/home-property-development/planning-zoning-development.aspx) 
 
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
+- Zoning & Development
+- Accessibility 
+- Sustainability
 
+## Disaster Planning & Recovery
+{: .no_toc }
 
-## Volunteer Geographic Information
+British Columbia's floodplain maps are [**severely outdated**](https://www2.gov.bc.ca/gov/content/environment/air-land-water/water/drought-flooding-dikes-dams/integrated-flood-hazard-management/flood-hazard-land-use-management/floodplain-mapping/floodplain-maps-by-region), as are flood maps across the country.  The province has "offloaded" responsibility of flood management [onto municipalities](https://youtu.be/o6ktS3Ex4TU), which is a grossly negligent action as the scale of the problem is far beyone what municipalities have the resources to address.  Up to [10% of Canadian homes](https://www.cbc.ca/news/canada/marketplace-home-insurance-1.6262386) are in high risk flood zones.  This largely needs to be addressed by provincial & federal governments (disasters don't respect borders).
 
-The collection, processing, assembly, and dissemination of geographic data provided voluntarily by individuals.  Is sometimes, part of participatory approaches to GIS; sometimes its just using freely provided information that people are unaware of.  This is equally likely to be used for commercial purposes as it is for participatory, educational, and other non-commercial uses: E.g. Trip Advisor, Flickr, Twitter, etc.  Usually some sort of "wisdom of the crowds" is used to validate data, or else data verification and validation is performed by the organizing group
+Beyond flooding ... there are many other looming issues we need to prepare for:
 
-### Area Racism and Health Outcomes
+- Fires
+- Windstorms
+- Earthquakes
+- Tsunamis
+- Volcanoes
+- Permafrost Thaw
+- Public Health
+- Migration Crises
+- War and Famine
 
-Volunteered data isn't always volunteered willingly/knowingly.  For example, we can use google search metadata to find out things people might not willingly share themselves.
+## Conservation and Resource Management
+{: .no_toc }
+
+Provincial and Federal governments are responsible for managing resources, which requires managing maps and databases for:
+
+- Mining
+- Forestry
+- Fisheries
+- Agriculture
+
+# Private Sector
+
+## Logistics
+{: .no_toc }
+
+Route mapping and optimization is largely done by algorithms, but experienced users are need at large companies like Google, FedEx, UPS, etc. to manage the applications.  Global shipping and air carriers need geoanalysts as well.  There many more specialized applications for navigation and logistics expertise.
+
+- The recent flooding in BC has highlighted how important logistics operators are in modern society.
+
+## Resource Extraction & Development
+{: .no_toc }
+
+Closely tied with the government resource management, industries hire employees with GIS skills or contract consulting firms:
+
+- Mining
+- Forestry
+- Fisheries
+- Agriculture
+
+## Consulting
+{: .no_toc }
+
+Beyond resource extraction, there are a number of other projects that rely on private consulting:
+
+- Environmental Impact Assessments
+- Construction and Real Estate Development
+- Political Consulting
+- Freelance Applications
+
+# Research and Advocacy
+
+## Climate Change
+{: .no_toc }
+
+GIS has a wide range of applications for addressing climate change.  Satellite data can be used to monitor impacts and advance our understanding.  Mapping can be used to work towards mitigation and develop strategies for adaptation (eg. mapping sea level rise, risk assessments for highways, assessing fire risk).
+
+* I frequently use GIS in my own research, it was a central part of my dissertation and now I'm using it working for the UBC Micrometeorology research group.
+
+## Social Justice
+{: .no_toc }
+
+GIS is a powerful tool for addressing social justice issues.  Especially Open Source GIS, because access is not restricted licensing fees.  I've used open source GIS techniques along with programming (Python) skills to start an organization tracking [Police Involved Deaths in Canada](https://police-involved-deaths-ca.github.io/Data/).
+
 
 <div style="overflow: hidden;
-  padding-top: 56.25%;
+  padding-top: 60%;
   position: relative">
-  <iframe src="content/Chae_et_al_2015.pdf" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="https://police-involved-deaths-ca.github.io/Data/" title="Processes" scrolling="yes" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -133,66 +117,4 @@ Volunteered data isn't always volunteered willingly/knowingly.  For example, we 
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="content/Chae_et_al_2015.pdf" target="_blank">View in New Tab</a>
-
-
-### Quiz Question No. 2
-
-Read the highlighted portions of [Chae et al. (2015)](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
-
-## Citizen Science
-
-Allows interested volunteers and researchers to team up to address some scientific question.  Volunteers provide the “leg work” of data collection, data cleaning, and initial interpretation of field data.  Guided by scientific research experts.  Participation levels can range from simple data collection through to contributing to academic journal submission.  
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="https://maps.cocorahs.org/" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="https://maps.cocorahs.org/" target="_blank">View in New Tab</a>
-
-
-## Participatory GIS
-
-The primary goals of PGIS are the empowerment and inclusion of marginalized people.  These groups tend to have little or no voice in the public arena due to extremes of location, poverty, racism, sexism, anti-religious feelings, or political disempowerment.  Often begins through a process of community mapping, with many steps and a set of long-term goals for the community.
-
-* Have members of the community generate their own data and construct their own maps
-* Bring members together to share their maps
-* Combine their work into a single community map and open the map up to review by the broader public
-* These community efforts can then be coded into a GIS to systematize the community’s knowledge and allow for greater spatial analysis to occur
-
-### Inuit land use and occupancy project
-
-Participatory/counter mapping to safeguard Inuit rights to Arctic lands and waters.  Inuit People became increasingly concerned about resource extraction projects.  Commissioned a study on land use and occupancy that was instrumental in the establishment of Nunavut.
-
-<img src='content/images/ILUOP_1.png'>
-
-No references to published work or other secondary sources of information: 100 % Original Data collection from Inuit Sources
-
-<img src='content/images/ILUOP_2.png'>
-
-
-
-<!-- 
----
-
-### QC2
-
-____ is the practice of reflecting on and disclosing your position relative to your work/research. 
-
-
-### QC3
-
-Just because something is illegal, does not mean its unethical. [T/F]
-
-### QC4
-
-____ software can help minimize the barriers to access GIS technology. -->
+<a href="https://police-involved-deaths-ca.github.io/Data/" target="_blank">View page in New Tab</a>

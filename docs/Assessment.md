@@ -26,25 +26,25 @@ Written answers should be brief but they should adequately answer the question. 
 
 ## Lecture Content Questions
 
-[**1**](Contnet_Part1.md)
+[**1**](Contnet_Part1_1.md#are-we-automating-racism)
 Use the information presented in the [Vox video](https://www.youtube.com/embed/Ok5sKLXqynQ) to write a paragraph or two discussing how racial bias has permeated our tech systems and some of the things that need to be done to counter these issues.
 
-[**2**](Contnet_Part1.md)
+[**2**](Contnet_Part1_1.md#area-racism-and-health-outcomes)
 Read the highlighted portions of [Chae et al. (2015)](content/Chae_et_al_2015.pdf) on racism and health outcomes.  Then use this information to write a couple paragraphs outlining what they found, how the type of data they used can be a useful alternative for traditional metrics, and what are some potential limitations to this type of research.
 
-[**3**](Contnet_Part2.md)
+[**3**](Contnet_Part1.md)
 What are positionality statements and why are they important?
 
-[**4**](Contnet_Part2.md)
+[**4**](Contnet_Part1.md)
 If something is illegal, that means it is also unethical. [T/F]
 
-[**5**](Contnet_Part2.md)
+[**5**](Contnet_Part1.md)
 Proprietary software can help minimize the barriers to access GIS technology. [T/F]
 
-[**6**](Contnet_Part2.md)
+[**6**](Contnet_Part1.md)
 Citizen Science and Participatory GIS rely on active public engagement, Volunteer Geographic Information is not dependent upon public engagement. [T/F]
 
-[**7**](Contnet_Part3.md)
+[**7**](Contnet_Part2.md)
 GIS has a wide range of applications in the public and private sectors. [T/F]
 
 [**8**](Guest_Speaker.md)
