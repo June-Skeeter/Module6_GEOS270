@@ -6,11 +6,11 @@ has_children: True
 nav_order: 1
 ---
 
-# Guest Speaker: Thursday June 16th
+# Guest Speaker
 
-
-## Alysha Baratta: Peace Geeks
-
+Alysha Baratta
+Product Manager: Peace Geeks
+alysha@peacegeeks.org
 
 <div style="overflow: hidden;
   padding-top: 56.25%;

@@ -10,7 +10,7 @@ This module will cover public engagement in and ethical implications of GIS; app
 
 ## Extended Office Hours
 
-I will be in from 10:00-12:00 & 2:00 - 3:00 Tue/Thur through June 23rd if you need extra help with anything.
+I will be in from 10:00-12:00 & 2:00 - 3:00 Tue/Thur through **June 23rd** if you need extra help with anything.
 
 ## Teaching Evaluations!
 
