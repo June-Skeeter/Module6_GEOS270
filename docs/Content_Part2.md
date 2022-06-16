@@ -2,7 +2,7 @@
 layout: default
 title: Applications and Research
 parent: Lecture Content
-has_children: True
+# has_children: True
 nav_order: 4
 ---
 
