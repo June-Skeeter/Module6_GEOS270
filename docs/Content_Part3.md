@@ -13,7 +13,6 @@ nav_order: 5
 **The review recoriding will not be avaialable on canvas during the exam period.**
 
 
-
 ## Essays (30 pts x3)
 
 * No definitive word count/limit.  Responses can be brief, but should be thorough - answer all parts of the question.

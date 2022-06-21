@@ -6,7 +6,7 @@ has_children: True
 nav_order: 2
 ---
 
-# Ethics
+# Ethics in GIS
 {: .no_toc }
 
 GIS, more than many disciplines has immense potential to have an impact on peoples lives.
@@ -31,14 +31,21 @@ Legal but Unethical                   | Ethical but Illegal
 :------------------------------------:|:-------------------------------------:
 <img src='content/images/Police.png'> |<img src='content/images/Protest.png'>
 
+---
+
 ## Ethics in Science
 
 Research often involves handling the private, personal information about individuals and minority groups:
-* There is a need that potential participants trust that their information will be used in a safe and respected manner
+* Potential participants must be able to trust that their information will be used in a safe and respected manner.
+* In some fields, ethics boards often review research proposals to ensure best practices are used.
+  * How will the data be used?
+  * Who will have access to data/results?
+  * What identifying information will be used/released?
 
-## Ethics in GIS
+### Ethics in GIS
+{: .no_toc }
 
-In many ways, GIS has the potential to be more intrusive in to people’s every day lives other sciences:
+GIS has the potential to be **more** intrusive in to people’s every day lives other sciences:
 * We can know where people are at any given time
 * We can guess at what they are doing reasonably well
 * We can know where people shop, approximately how much money they make, who they know, and to which organizations they belong
@@ -47,6 +54,7 @@ In many ways, GIS has the potential to be more intrusive in to people’s every 
 
 
 ### The Power of a Line
+{: .no_toc }
 
 What side of a border you live up on can have drastic impacts on outcomes.  Where you live determines:
 
@@ -57,14 +65,41 @@ What side of a border you live up on can have drastic impacts on outcomes.  Wher
 - What services you have access too.
 - Where you can travel.
 
+---
+
 ## Data privacy and security
 
 Point locations risk exposing personal information.  Many agencies have guidelines surrounding exposure of health information.  More detailed information gives more accurate representations and allows for better decision making.  But it also impacts privacy  Where is they line?  How specific is too specific?  The city of Toronto maps COVID cases at the [neighborhood level](https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/), in BC data is released at a much [coarser resolution](http://www.bccdc.ca/Health-Info-Site/PublishingImages/health-info/diseases-conditions/covid-19/data/covid19_lha_20211114_20211120.png) and the interactive data portal gives [less information](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded).
 
 ## Data representation
 
-All maps lie, but some lie more than others.  How we choose to classify our data can have a big impact on how it is perceived.  Every cartographic choice you make can have ramifications.
+All maps lie, but some lie more than others.  How we choose to display our data can have a big impact on how it is perceived.  Every cartographic choice you make can have ramifications.
 
+**Sometimes the choices are intentional**
+
+<img src="https://github.com/June-Skeeter/Module5_GEOS270/raw/main/docs/content/images/gerrymander_nc.png">
+
+**Sometimes they are careless oversights**
+
+<img src="content/images/Projection.jpg">
+
+**Sometimes the lack of context is the issue**
+
+<img src="content/images/maps_lie.jpg">
+
+
+# Who Has Access to GIS? 
+
+Who has access to GIS?  ESRI products (e.g. ArcGIS Pro) have very expensive licensing fees.  Beyond just the cost of the software, hardware to run GIS is not always accessible, and GIS training takes time.  There are options to make GIS more accessible to the public, but regardless, GIS
+
+## Open Source Options
+{: .no_toc }
+
+There are open source alternatives that can provide some access to GIS:
+
+* [QGIS](https://qgis.org/en/site/) is an application with similar functionality to ArcGIS Pro.
+* Python, R, JavaScript etc. are open source programming languages that have many GIS packages.
+* Free help pages like [stackexchange](https://gis.stackexchange.com/) and github doc's pages (eg. [qgis](https://github.com/qgis/QGIS)) can help with training, but they require a base level of knowledge first.
 
 
 # Positionality
@@ -72,6 +107,7 @@ All maps lie, but some lie more than others.  How we choose to classify our data
 It is important to reflect on your relation to your work.  In the social sciences, positionality is especially important, because a researches privileges, biases, and preconceptions can drastically impact the people and communities they are working with.  In some of the "hard" sciences, there are often a claims of total objectivity, but complete objectivity is impossible.  No one is completely objective, that must be understood and acknowledged regardless of the field.
 
 ## Why this topic? Why now? Why me?
+{: .no_toc }
 
 Some important questions to ask yourself.  You should disclose this information when pertinent.
 
@@ -84,20 +120,9 @@ Some important questions to ask yourself.  You should disclose this information 
 
 
 
-# Who Has Access to GIS? 
+---
 
-Who has access to GIS?  ESRI products (e.g. ArcGIS Pro) have very expensive licensing fees.  Beyond just the cost of the software, hardware to run GIS is not always accessible, and GIS training takes time.  There are options to make GIS more accessible to the public, but regardless, GIS
-
-## Open Source Options
-
-There are open source alternatives that can provide some access to GIS:
-
-* [QGIS](https://qgis.org/en/site/) is an application with similar functionality to ArcGIS Pro.
-* Python, R, JavaScript etc. are open source programming languages that have many GIS packages.
-* Free help pages like [stackexchange](https://gis.stackexchange.com/) and github doc's pages (eg. [qgis](https://github.com/qgis/QGIS)) can help with training, but they require a base level of knowledge first.
-
-
-# Public Participation
+# Public Participation in GIS
 
 There are many ways the public can be involved in GIS; the can participate actively or passively.  Engagement is crucial in many ways.
 
@@ -135,6 +160,7 @@ The primary goals of PGIS are the empowerment and inclusion of marginalized peop
 * These community efforts can then be coded into a GIS to systematize the community’s knowledge and allow for greater spatial analysis to occur
 
 ### Inuit land use and occupancy project
+{: .no_toc }
 
 Participatory/counter mapping to safeguard Inuit rights to Arctic lands and waters.  Inuit People became increasingly concerned about resource extraction projects.  Commissioned a study on land use and occupancy that was instrumental in the establishment of Nunavut.
 
@@ -145,19 +171,3 @@ No references to published work or other secondary sources of information: 100 %
 <img src='content/images/ILUOP_2.png'>
 
 
-
-<!-- 
----
-
-### QC2
-
-____ is the practice of reflecting on and disclosing your position relative to your work/research. 
-
-
-### QC3
-
-Just because something is illegal, does not mean its unethical. [T/F]
-
-### QC4
-
-____ software can help minimize the barriers to access GIS technology. -->
