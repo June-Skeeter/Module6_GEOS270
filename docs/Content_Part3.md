@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exam Review
-parent: Lecture Content
+parent: Lecture Contenttttt
 # has_children: True
 nav_order: 5
 ---
